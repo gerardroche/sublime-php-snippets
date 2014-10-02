@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:Description}
+ */
+trait ${2:TraitName}
+{
+    function ${3:functionName}(${4:argument})
+    {
+        ${5:# code...}
+    }
+}
+]]></content>
+    <tabTrigger>trait</tabTrigger>
+    <scope>source.php</scope>
+    <description>trait …</description>
+</snippet>
