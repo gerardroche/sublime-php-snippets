@@ -1,7 +1,8 @@
 Sublime Text PHP Snippets
 =========================
 
-All snippets are [PSR](https://github.com/php-fig/fig-standards) compliant.
+- PHP ~5 ([Semantic Version](http://semver.org))
+- [PSR](https://github.com/php-fig/fig-standards) compliant.
 
 Contributing Guidelines
 -----------------------

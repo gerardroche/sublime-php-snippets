@@ -5,7 +5,7 @@
  *
  * @var ${4:string}
  */
-${1:var} \$$2;$0
+${1:private} \$$2;$0
 ]]></content>
     <tabTrigger>doc_v</tabTrigger>
     <scope>source.php</scope>
