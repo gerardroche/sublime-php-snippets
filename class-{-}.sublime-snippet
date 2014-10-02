@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 /**
-* $1
-*/
+ * $1
+ */
 class ${2:ClassName}${3: extends ${4:AnotherClass}}
 {
 	$5
@@ -11,7 +11,6 @@ class ${2:ClassName}${3: extends ${4:AnotherClass}}
 		${0:# code...}
 	}
 }
-
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.php</scope>
