@@ -1,5 +1,6 @@
 <snippet>
-    <content><![CDATA[/**
+    <content><![CDATA[
+/**
  * ${2:undocumented class}
  *
  * @package ${3:default}
@@ -7,7 +8,8 @@
  */
 interface $1
 {$0
-} // END interface $1]]></content>
+} // END interface $1
+]]></content>
     <tabTrigger>doc_i</tabTrigger>
     <scope>source.php</scope>
     <description>Interface</description>

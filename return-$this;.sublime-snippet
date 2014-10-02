@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[return \$this;]]></content>
+    <content><![CDATA[
+return \$this;
+]]></content>
     <tabTrigger>rthis</tabTrigger>
     <scope>source.php</scope>
     <description>return $this;</description>

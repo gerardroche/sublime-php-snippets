@@ -10,6 +10,7 @@ trait ${2:TraitName}
         ${5:# code...}
     }
 }
+
 ]]></content>
     <tabTrigger>trait</tabTrigger>
     <scope>source.php</scope>
