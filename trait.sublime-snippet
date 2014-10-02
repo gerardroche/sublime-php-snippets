@@ -7,10 +7,9 @@ trait ${2:TraitName}
 {
     function ${3:functionName}(${4:argument})
     {
-        ${5:# code...}
+        ${5:// code...}
     }
 }
-
 ]]></content>
     <tabTrigger>trait</tabTrigger>
     <scope>source.php</scope>
