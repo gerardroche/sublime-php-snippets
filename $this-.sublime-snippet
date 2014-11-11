@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$this->$0
+]]></content>
+    <tabTrigger>this</tabTrigger>
+    <scope>source.php - variable.other - meta.function.arguments - support.class - entity.other.inherited-class - meta.use - meta.catch - comment - string</scope>
+    <description>$this-&gt;</description>
+</snippet>

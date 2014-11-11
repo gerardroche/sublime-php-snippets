@@ -1,7 +1,9 @@
 <snippet>
-    <content><![CDATA[/**
+    <content><![CDATA[
+/**
  * $0
- */]]></content>
+ */
+]]></content>
     <tabTrigger>/**</tabTrigger>
     <scope>source.php</scope>
     <description>Start Docblock</description>

@@ -1,8 +1,10 @@
 <snippet>
-    <content><![CDATA[/**
+    <content><![CDATA[
+/**
  * ${3:undocumented constant}
- **/
-define($1, $2);$0]]></content>
+ */
+define($1, $2);$0
+]]></content>
     <tabTrigger>doc_d</tabTrigger>
     <scope>source.php</scope>
     <description>Constant Definition</description>
