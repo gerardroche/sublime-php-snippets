@@ -14,8 +14,13 @@ will result in duplicate snippets.
 
 See the [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar.git)
 package for more details.
-
 See also: [PHP Completions](https://github.com/gerardroche/sublime-phpck.git).
+
+Other PHP packages:
+
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
 
 ### [Package Control](https://sublime.wbond.net/installation)
 
