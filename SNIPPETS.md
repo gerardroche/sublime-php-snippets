@@ -31,6 +31,12 @@ SESSION[&#039;…&#039;]
 Start Docblock
 
 ```php
+<?
+```
+
+Script start tag
+
+```php
 array
 ```
 
