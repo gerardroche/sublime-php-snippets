@@ -4,10 +4,6 @@ Snippets API
 source
 ------
 
-```php
-$_
-```
-
 COOKIE[&#039;…&#039;]
 
 ENV[&#039;…&#039;]
@@ -25,335 +21,339 @@ SERVER[&#039;…&#039;]
 SESSION[&#039;…&#039;]
 
 ```php
-/**
+$_
 ```
 
 Start Docblock
 
 ```php
-<?
+/**
 ```
 
 Script start tag
 
 ```php
-array
+<?
 ```
 
 $… = array (…)
 
 ```php
-c
+array
 ```
 
 Class declaration
 
 ```php
-case
+c
 ```
 
 case …
 
 ```php
-class
+case
 ```
 
 class …
 
 ```php
-con
+class
 ```
 
 &lt;visibility&gt; function __construct
 
 ```php
-def
+con
 ```
 
 define(…, …)
 
 ```php
-def?
+def
 ```
 
 defined(…)
 
 ```php
-do
+def?
 ```
 
 do … while …
 
 ```php
-doc_c
+do
 ```
 
 Class
 
 ```php
-doc_d
+doc_c
 ```
 
 Constant Definition
 
 ```php
-doc_f
+doc_d
 ```
 
 Function
 
 ```php
-doc_i
+doc_f
 ```
 
 Interface
 
 ```php
-doc_s
+doc_i
 ```
 
 Function Signature
 
 ```php
-doc_v
+doc_s
 ```
 
 Class Variable
 
 ```php
-echo
+doc_v
 ```
 
 echo &#039;…&#039;
 
 ```php
-elseif
+echo
 ```
 
 elseif …
 
 ```php
-ethis
+elseif
 ```
 
 echo $this-&gt;
 
 ```php
-f
+ethis
 ```
 
 Function declaration
 
 ```php
-for
+f
 ```
 
 for …
 
 ```php
-foreach
+for
 ```
 
 foreach …
 
 ```php
-fun
+foreach
 ```
 
 function …
 
 ```php
-globals
+fun
 ```
 
 $GLOBALS[&#039;…&#039;]
 
 ```php
-i
+globals
 ```
 
 Interface declaration
 
 ```php
-if
+i
 ```
 
 if …
 
 ```php
-if?
+if
 ```
 
 $… = ( … ) ? … : …
 
 ```php
-ifelse
+if?
 ```
 
 if … else …
 
 ```php
-incl
+ifelse
 ```
 
 include …
 
 ```php
-incl1
+incl
 ```
 
 include_once …
 
 ```php
-m
+incl1
 ```
 
 Class method declaration
 
 ```php
-ns
+m
 ```
 
 Namespace definition
 
 ```php
-req
+ns
 ```
 
 require …
 
 ```php
-req1
+req
 ```
 
 require_once …
 
 ```php
-ret
+req1
 ```
 
 return
 
 ```php
-ret0
+ret
 ```
 
 return false
 
 ```php
-ret1
+ret0
 ```
 
 return true
 
 ```php
-rthis
+ret1
 ```
 
 return $this;
 
 ```php
-switch
+rthis
 ```
 
 switch …
 
 ```php
-t
+switch
 ```
 
 Trait declaration
 
 ```php
-this
+t
 ```
 
 $this-&gt;
 
 ```php
-throw
+this
 ```
 
 Throw Exception
 
 ```php
-trait
+throw
 ```
 
 trait …
 
 ```php
-try
+trait
 ```
 
 Wrap in try { … } catch (…) { … }
 
 ```php
-use
+try
 ```
 
 Namespace use declaration
 
 ```php
-while
+use
 ```
 
 while …
 
+```php
+while
+```
+
 phtml
 -----
+
+&lt;?php echo … ?&gt;
 
 ```php
 echo
 ```
 
-&lt;?php echo … ?&gt;
+&lt;?php echo htmlentities(…) ?&gt;
 
 ```php
 echoh
 ```
 
-&lt;?php echo htmlentities(…) ?&gt;
+&lt;?php else: ?&gt;
 
 ```php
 else
 ```
 
-&lt;?php else: ?&gt;
+&lt;?php echo $this-&gt;… ?&gt;
 
 ```php
 ethis
 ```
 
-&lt;?php echo $this-&gt;… ?&gt;
+&lt;?php foreach (…) … &lt;?php endforeach ?&gt;
 
 ```php
 foreach
 ```
 
-&lt;?php foreach (…) … &lt;?php endforeach ?&gt;
+&lt;?php if (…) ?&gt; … &lt;?php endif ?&gt;
 
 ```php
 if
 ```
 
-&lt;?php if (…) ?&gt; … &lt;?php endif ?&gt;
+&lt;?php if (…) ?&gt; … &lt;?php else ?&gt; … &lt;?php endif ?&gt;
 
 ```php
 ifelse
 ```
 
-&lt;?php if (…) ?&gt; … &lt;?php else ?&gt; … &lt;?php endif ?&gt;
+&lt;?php … ?&gt;
 
 ```php
 php
 ```
 
-&lt;?php … ?&gt;
+&lt;?php $this-&gt;… ?&gt;
 
 ```php
 this
 ```
-
-&lt;?php $this-&gt;… ?&gt;
 
