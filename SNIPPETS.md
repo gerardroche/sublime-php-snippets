@@ -139,6 +139,12 @@ ethis
 echo $this-&gt;
 
 ```php
+f
+```
+
+Function declaration
+
+```php
 for
 ```
 
