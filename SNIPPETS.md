@@ -235,6 +235,12 @@ switch
 switch …
 
 ```php
+t
+```
+
+Trait declaration
+
+```php
 this
 ```
 
