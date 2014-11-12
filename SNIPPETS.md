@@ -169,6 +169,12 @@ globals
 $GLOBALS[&#039;…&#039;]
 
 ```php
+i
+```
+
+Interface declaration
+
+```php
 if
 ```
 
