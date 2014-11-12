@@ -259,6 +259,12 @@ try
 Wrap in try { … } catch (…) { … }
 
 ```php
+use
+```
+
+Namespace use declaration
+
+```php
 while
 ```
 
