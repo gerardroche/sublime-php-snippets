@@ -43,6 +43,12 @@ array
 $… = array (…)
 
 ```php
+c
+```
+
+Class declaration
+
+```php
 case
 ```
 

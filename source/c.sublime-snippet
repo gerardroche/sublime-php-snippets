@@ -1,0 +1,11 @@
+<snippet>
+     <content><![CDATA[
+class ${1:Name}${2/.+/ extends /}${2:Name}${3/.+/ implements /}${3:Name}
+{
+    ${0}
+}
+]]></content>
+    <tabTrigger>c</tabTrigger>
+    <scope>source.php</scope>
+    <description>Class declaration</description>
+ </snippet>
