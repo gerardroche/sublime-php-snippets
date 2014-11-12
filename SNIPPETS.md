@@ -187,6 +187,12 @@ incl1
 include_once …
 
 ```php
+ns
+```
+
+Namespace definition
+
+```php
 req
 ```
 
