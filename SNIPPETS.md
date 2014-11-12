@@ -205,6 +205,12 @@ incl1
 include_once …
 
 ```php
+m
+```
+
+Class method declaration
+
+```php
 ns
 ```
 
