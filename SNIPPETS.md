@@ -34,6 +34,7 @@ Scope: source
 | `elseif` | elseif … |
 | `ethis` | echo $this-&gt; |
 | `f` | Function declaration |
+| `flatten` | Flatten an array |
 | `for` | for … |
 | `foreach` | Foreach value statement |
 | `foreachk` | Foreach key-value statement |
