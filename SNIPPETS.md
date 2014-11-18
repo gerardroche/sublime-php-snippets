@@ -60,6 +60,7 @@ Scope: source
 | `trait` | trait … |
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |
+| `vd` | Dump information about a variable |
 | `while` | while … |
 
 Scope: phtml
