@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-foreach (\$${1:variable} as \$${2:key}${3: => \$${4:value}}) {
+foreach (\$${1:collection} as \$${2:value}) {
 	${0:// code...}
 }
 ]]></content>
     <tabTrigger>foreach</tabTrigger>
-    <scope>source.php</scope>
-    <description>foreach …</description>
+    <scope>source.php</scope>,
+    <description>Foreach value statement</description>
 </snippet>

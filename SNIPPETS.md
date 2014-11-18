@@ -35,7 +35,7 @@ Scope: source
 | `ethis` | echo $this-&gt; |
 | `f` | Function declaration |
 | `for` | for … |
-| `foreach` | foreach … |
+| `foreach` | Foreach value statement |
 | `foreachk` | Foreach key-value statement |
 | `fun` | function … |
 | `globals` | $GLOBALS[&#039;…&#039;] |
