@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+print_r(${1});
+]]></content>
+    <tabTrigger>pr</tabTrigger>
+    <scope>source.php</scope>
+    <description>Print human readable information about a variable</description>
+</snippet>

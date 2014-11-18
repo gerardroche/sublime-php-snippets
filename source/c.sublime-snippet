@@ -1,6 +1,6 @@
 <snippet>
      <content><![CDATA[
-class ${1:Name}${2/.+/ extends /}${2:Name}${3/.+/ implements /}${3:Name}
+${1:final }class ${2:Name}${3/.+/ extends /}${3:Name}${4/.+/ implements /}${4:Name}
 {
     ${0}
 }

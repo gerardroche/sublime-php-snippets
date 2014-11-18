@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$${1:arrayName} = array('$2' => $3${4:,} $0);
+\$${1:name} = array('${2}' => ${3});
 ]]></content>
     <tabTrigger>array</tabTrigger>
     <scope>source.php - variable.other.php</scope>
-    <description>$… = array (…)</description>
+    <description>Initialise a variable with an array</description>
 </snippet>
