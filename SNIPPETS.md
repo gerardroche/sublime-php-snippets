@@ -55,6 +55,7 @@ Scope: source
 | `ret0` | return false |
 | `ret1` | return true |
 | `rthis` | return $this; |
+| `rv` | Return a variable statement |
 | `switch` | switch … |
 | `t` | Trait declaration |
 | `this` | $this-&gt; |
