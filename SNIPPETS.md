@@ -36,6 +36,7 @@ Scope: source
 | `f` | Function declaration |
 | `for` | for … |
 | `foreach` | foreach … |
+| `foreachk` | Foreach key-value statement |
 | `fun` | function … |
 | `globals` | $GLOBALS[&#039;…&#039;] |
 | `i` | Interface declaration |
