@@ -61,6 +61,7 @@ Scope: source
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |
 | `vd` | Dump information about a variable |
+| `vde` | Dump information about a variable and exit |
 | `while` | while … |
 
 Scope: phtml

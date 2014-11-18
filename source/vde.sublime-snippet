@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+var_dump(\$${1}); exit;
+]]></content>
+    <tabTrigger>vde</tabTrigger>
+    <scope>source.php</scope>
+    <description>Dump information about a variable and exit</description>
+</snippet>
