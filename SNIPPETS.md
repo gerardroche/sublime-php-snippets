@@ -16,6 +16,7 @@ Scope: source
 | `$_` | SESSION[&#039;…&#039;] |
 | `/**` | Start Docblock |
 | `<?` | Script start tag |
+| `am` | Array map a closure |
 | `array` | Initialise a variable with an array |
 | `c` | Class declaration |
 | `case` | case … |
