@@ -47,6 +47,7 @@ Scope: source
 | `incl1` | include_once … |
 | `m` | Class method declaration |
 | `ns` | Namespace definition |
+| `pr` | Print human readable information about a variable |
 | `req` | require … |
 | `req1` | require_once … |
 | `ret` | return |
