@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 \$${1:return} = array();
-array_walk_recursive(\$${2:array}, function(\$x) use (&\$${1:return}) { \$${1:return}[] = \$x; });
+array_walk_recursive(\$${2:array}, function (\$x) use (&\$${1:return}) { \$${1:return}[] = \$x; });
 ]]></content>
     <tabTrigger>flatten</tabTrigger>
     <scope>source.php</scope>
