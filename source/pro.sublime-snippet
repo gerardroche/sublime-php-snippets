@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+protected function ${1:name}(${2:\$...})
+{
+	${0:// code...}
+}
+]]></content>
+    <tabTrigger>pro</tabTrigger>
+    <scope>source.php</scope>
+    <description>Protected class method declaration</description>
+</snippet>
