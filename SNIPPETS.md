@@ -1,5 +1,5 @@
-Snippets API
-============
+Snippets
+========
 
 Scope: source
 -------------
@@ -51,6 +51,7 @@ Scope: source
 | `ns` | Namespace definition |
 | `pr` | Print human readable information about a variable |
 | `pre` | Print human readable information about a variable and exit |
+| `pub` | Public class method declaration |
 | `req` | require … |
 | `req1` | require_once … |
 | `ret` | return |

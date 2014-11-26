@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.5.0-dev (next version)
+------------------------
+
+- New snippet: pub - Public class method declaration
+
 0.4.0
 -----
 
