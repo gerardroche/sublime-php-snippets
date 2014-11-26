@@ -9,6 +9,11 @@ Snippets
 
 See [SNIPPETS.md][SNIPPETS.md] for a list of available snippets.
 
+Changelog
+---------
+
+See [CHANGELOG.md][https://github.com/gerardroche/sublime-php-snippets/CHANGELOG.md].
+
 Other PHP packages
 ------------------
 
