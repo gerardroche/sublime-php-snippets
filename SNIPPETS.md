@@ -55,6 +55,7 @@ Scope: source
 | `pri` | Private class method declaration |
 | `pro` | Protected class method declaration |
 | `pub` | Public class method declaration |
+| `pubs` | Public static class method declaration |
 | `req` | require … |
 | `req1` | require_once … |
 | `ret` | return |
