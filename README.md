@@ -7,7 +7,7 @@ Sublime Text PHP Snippets
 Snippets
 --------
 
-See [SNIPPETS.md][SNIPPETS.md] for a list of available snippets.
+See [SNIPPETS.md][https://github.com/gerardroche/sublime-php-snippets/SNIPPETS.md] for a list of available snippets.
 
 Changelog
 ---------
