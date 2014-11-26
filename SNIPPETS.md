@@ -21,6 +21,7 @@ Scope: source
 | `c` | Class declaration |
 | `case` | case … |
 | `class` | class … |
+| `closure` | Closure declaration |
 | `con` | &lt;visibility&gt; function __construct |
 | `def` | define(…, …) |
 | `def?` | defined(…) |

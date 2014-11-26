@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1/.+/\$/}${1:name}${1/.+/ = /}function (\$${2:value})${3/.+/ use \(\$/}${3:name}${3/.+/\) /} {
+    ${0:}
+}${1/.+/;/}
+]]></content>
+    <tabTrigger>closure</tabTrigger>
+    <scope>source.php</scope>
+    <description>Closure declaration</description>
+</snippet>
