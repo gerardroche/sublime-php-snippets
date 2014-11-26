@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+private function ${1:name}(${2:\$...})
+{
+	${0:// code...}
+}
+]]></content>
+    <tabTrigger>pri</tabTrigger>
+    <scope>source.php</scope>
+    <description>Private class method declaration</description>
+</snippet>

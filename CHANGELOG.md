@@ -4,6 +4,7 @@ CHANGELOG
 0.5.0-dev (next version)
 ------------------------
 
+- New snippet: pri - Private class method declaration
 - New snippet: pub - Public class method declaration
 
 0.4.0
