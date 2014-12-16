@@ -1,8 +1,8 @@
 CHANGELOG
 =========
 
-0.5.0-dev (next version)
-------------------------
+0.5.0
+-----
 
 - Added: closure - Closure declaration
 - Added: fpri - Final private class method declaration
