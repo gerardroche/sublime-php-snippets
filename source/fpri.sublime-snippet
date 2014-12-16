@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+final private function ${1:name}(${2:\$...})
+{
+	${0:// code...}
+}
+]]></content>
+    <tabTrigger>fpri</tabTrigger>
+    <scope>source.php</scope>
+    <description>Final private class method declaration</description>
+</snippet>

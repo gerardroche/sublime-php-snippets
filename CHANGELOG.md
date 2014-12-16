@@ -8,6 +8,7 @@ CHANGELOG
 - New snippet: closure - Closure declaration
 - New snippet: pro - Protected class method declaration
 - New snippet: pri - Private class method declaration
+- New snippet: fpri - Final private class method declaration
 - New snippet: pub - Public class method declaration
 
 0.4.0
