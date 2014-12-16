@@ -1,5 +1,5 @@
-Snippets API
-============
+Snippets
+========
 
 Scope: source
 -------------
@@ -21,6 +21,7 @@ Scope: source
 | `c` | Class declaration |
 | `case` | case … |
 | `class` | class … |
+| `closure` | Closure declaration |
 | `con` | &lt;visibility&gt; function __construct |
 | `def` | define(…, …) |
 | `def?` | defined(…) |
@@ -39,6 +40,10 @@ Scope: source
 | `for` | for … |
 | `foreach` | Foreach value statement |
 | `foreachk` | Foreach key-value statement |
+| `fpri` | Final private class method declaration |
+| `fpris` | Final private static class method declaration |
+| `fpub` | Final public class method declaration |
+| `fpubs` | Final public static class method declaration |
 | `fun` | function … |
 | `globals` | $GLOBALS[&#039;…&#039;] |
 | `i` | Interface declaration |
@@ -51,6 +56,10 @@ Scope: source
 | `ns` | Namespace definition |
 | `pr` | Print human readable information about a variable |
 | `pre` | Print human readable information about a variable and exit |
+| `pri` | Private class method declaration |
+| `pro` | Protected class method declaration |
+| `pub` | Public class method declaration |
+| `pubs` | Public static class method declaration |
 | `req` | require … |
 | `req1` | require_once … |
 | `ret` | return |
