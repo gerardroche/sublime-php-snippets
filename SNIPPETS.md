@@ -41,6 +41,7 @@ Scope: source
 | `foreach` | Foreach value statement |
 | `foreachk` | Foreach key-value statement |
 | `fpri` | Final private class method declaration |
+| `fpub` | Final public class method declaration |
 | `fun` | function … |
 | `globals` | $GLOBALS[&#039;…&#039;] |
 | `i` | Interface declaration |
