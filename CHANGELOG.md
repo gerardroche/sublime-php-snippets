@@ -11,6 +11,7 @@ CHANGELOG
 - New snippet: fpri - Final private class method declaration
 - New snippet: pub - Public class method declaration
 - New snippet: fpub - Final public class method declaration
+- New snippet: fpubs - Final public static class method declaration
 
 0.4.0
 -----

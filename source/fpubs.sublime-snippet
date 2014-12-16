@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+final public static function ${1:name}(${2:\$...})
+{
+	${0:// code...}
+}
+]]></content>
+    <tabTrigger>fpubs</tabTrigger>
+    <scope>source.php</scope>
+    <description>Final public static class method declaration</description>
+</snippet>
