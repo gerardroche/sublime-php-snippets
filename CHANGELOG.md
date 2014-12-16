@@ -19,7 +19,7 @@ CHANGELOG
 
 - Changed: array - Simplified initialising an array
 - Changed: c - Add optional "final" modifier
-- Changed: foreach - Now iterates over value rather than key-value. Use foreachk to iterate over key-value.
+- Changed: foreach - Now iterates over value rather than key-value. Use foreachk to iterate over key-value
 - Added: am - Array map a closure
 - Added: flatten - Flatten an array
 - Added: foreachk - Foreach key-value statement
