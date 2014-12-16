@@ -9,6 +9,7 @@ CHANGELOG
 - New snippet: pro - Protected class method declaration
 - New snippet: pri - Private class method declaration
 - New snippet: fpri - Final private class method declaration
+- New snippet: fpris - Final private static class method declaration
 - New snippet: pub - Public class method declaration
 - New snippet: fpub - Final public class method declaration
 - New snippet: fpubs - Final public static class method declaration
