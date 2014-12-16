@@ -1,9 +1,8 @@
 <snippet>
     <content><![CDATA[
-throw new $1Exception(${2:"${3:Error Processing Request}"}${4:, ${5:1}});
-$0
+throw new $1Exception('${2:message}'${3:, ${4:code = 0}${5:, ${6:previous = null}}});
 ]]></content>
     <tabTrigger>throw</tabTrigger>
     <scope>source.php</scope>
-    <description>Throw Exception</description>
+    <description>Throw Exception statement</description>
 </snippet>

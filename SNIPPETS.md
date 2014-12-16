@@ -70,7 +70,7 @@ Scope: source
 | `switch` | switch … |
 | `t` | Trait declaration |
 | `this` | $this-&gt; |
-| `throw` | Throw Exception |
+| `throw` | Throw Exception statement |
 | `trait` | trait … |
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |
