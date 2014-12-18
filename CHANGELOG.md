@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+0.6.0
+-----
+
+- 9bd8ee7 Fixed class snippet: field cycle was broken
+- 88702fd Changed return $this statement trigger from rthis to rt
+- 3c5eb86 Changed namespace declaration snippet ns to n
+- 146c31b Changed class snippet: Added visibility
+- f20daf5 New snippet: r - Return statement [Gerard Roche]
+- f82e9e2 New snippet: p - Class property declaration
+- c6a4806 New snippet: fpro - Final protected class method declaration
+
 0.5.0
 -----
 
@@ -19,7 +30,7 @@ CHANGELOG
 
 - Changed: array - Simplified initialising an array
 - Changed: c - Add optional "final" modifier
-- Changed: foreach - Now iterates over value rather than key-value. Use foreachk to iterate over key-value.
+- Changed: foreach - Now iterates over value rather than key-value. Use foreachk to iterate over key-value
 - Added: am - Array map a closure
 - Added: flatten - Flatten an array
 - Added: foreachk - Foreach key-value statement

@@ -42,6 +42,7 @@ Scope: source
 | `foreachk` | Foreach key-value statement |
 | `fpri` | Final private class method declaration |
 | `fpris` | Final private static class method declaration |
+| `fpro` | Final protected class method declaration |
 | `fpub` | Final public class method declaration |
 | `fpubs` | Final public static class method declaration |
 | `fun` | function … |
@@ -53,24 +54,26 @@ Scope: source
 | `incl` | include … |
 | `incl1` | include_once … |
 | `m` | Class method declaration |
-| `ns` | Namespace definition |
+| `n` | Namespace definition |
+| `p` | Class property declaration |
 | `pr` | Print human readable information about a variable |
 | `pre` | Print human readable information about a variable and exit |
 | `pri` | Private class method declaration |
 | `pro` | Protected class method declaration |
 | `pub` | Public class method declaration |
 | `pubs` | Public static class method declaration |
-| `req` | require … |
-| `req1` | require_once … |
+| `r` | Return statement |
+| `req` | Require expression |
+| `req1` | Require once expression |
 | `ret` | return |
 | `ret0` | return false |
 | `ret1` | return true |
-| `rthis` | return $this; |
+| `rt` | Return $this statement |
 | `rv` | Return a variable statement |
 | `switch` | switch … |
 | `t` | Trait declaration |
 | `this` | $this-&gt; |
-| `throw` | Throw Exception |
+| `throw` | Throw Exception statement |
 | `trait` | trait … |
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |

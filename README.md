@@ -7,12 +7,12 @@ Sublime Text PHP Snippets
 Snippets
 --------
 
-See [SNIPPETS.md](SNIPPETS.md) for a list of available snippets.
+See [SNIPPETS](SNIPPETS.md) for a list of available snippets.
 
 Changelog
 ---------
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG](CHANGELOG.md).
 
 Other PHP packages
 ------------------
