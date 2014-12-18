@@ -64,6 +64,7 @@ Scope: source
 | `pubs` | Public static class method declaration |
 | `req` | require … |
 | `req1` | require_once … |
+| `r` | Return statement |
 | `ret` | return |
 | `ret0` | return false |
 | `ret1` | return true |
