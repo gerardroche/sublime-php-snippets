@@ -3,7 +3,6 @@
 return \$${1:name};
 ]]></content>
     <tabTrigger>rv</tabTrigger>
-    <tabtriggerAliases>retv</tabtriggerAliases>
     <scope>source.php</scope>
     <description>Return a variable statement</description>
 </snippet>
