@@ -37,7 +37,7 @@ Scope: source
 | `ethis` | echo $this-&gt; |
 | `f` | Function declaration |
 | `flatten` | Flatten an array |
-| `for` | for … |
+| `for` | For statement |
 | `foreach` | Foreach value statement |
 | `foreachk` | Foreach key-value statement |
 | `fpri` | Final private class method declaration |
