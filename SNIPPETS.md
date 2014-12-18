@@ -53,7 +53,7 @@ Scope: source
 | `incl` | include … |
 | `incl1` | include_once … |
 | `m` | Class method declaration |
-| `ns` | Namespace definition |
+| `n` | Namespace definition |
 | `pr` | Print human readable information about a variable |
 | `pre` | Print human readable information about a variable and exit |
 | `pri` | Private class method declaration |
