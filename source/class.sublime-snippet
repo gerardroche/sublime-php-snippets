@@ -6,7 +6,7 @@
 class ${2:ClassName}${3: extends ${4:AnotherClass}}
 {
 	$5
-	function ${6:__construct}(${7:argument})
+	${6:public }function ${7:__construct}(${8:argument})
 	{
 		${0:// code...}
 	}
