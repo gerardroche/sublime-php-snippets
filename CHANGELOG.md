@@ -6,6 +6,7 @@ CHANGELOG
 
 - Added: p - Class property declaration
 - Added: fpro - Final protected class method declaration
+- Changed: rthis to rt - Return $this statement
 
 0.5.0
 -----

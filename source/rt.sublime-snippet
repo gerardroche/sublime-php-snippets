@@ -2,7 +2,7 @@
     <content><![CDATA[
 return \$this;
 ]]></content>
-    <tabTrigger>rthis</tabTrigger>
+    <tabTrigger>rt</tabTrigger>
     <scope>source.php</scope>
-    <description>return $this;</description>
+    <description>Return $this statement</description>
 </snippet>
