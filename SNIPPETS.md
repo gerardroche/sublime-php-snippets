@@ -62,9 +62,9 @@ Scope: source
 | `pro` | Protected class method declaration |
 | `pub` | Public class method declaration |
 | `pubs` | Public static class method declaration |
-| `req` | require … |
-| `req1` | require_once … |
 | `r` | Return statement |
+| `req` | Require expression |
+| `req1` | Require once expression |
 | `ret` | return |
 | `ret0` | return false |
 | `ret1` | return true |

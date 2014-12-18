@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-require_once '${1:file}';$0
+require_once '${1:filename}';
 ]]></content>
     <tabTrigger>req1</tabTrigger>
     <scope>source.php</scope>
-    <description>require_once …</description>
+    <description>Require once expression</description>
 </snippet>
