@@ -4,10 +4,13 @@ CHANGELOG
 0.6.0
 -----
 
-- Added: fpro - Final protected class method declaration
-- Added: p - Class property declaration
-- Added: r - Return statement
-- Changed: rthis to rt - Return $this statement
+- 9bd8ee7 Fixed class snippet: field cycle was broken
+- 88702fd Changed return $this statement trigger from rthis to rt
+- 3c5eb86 Changed namespace declaration snippet ns to n
+- 146c31b Changed class snippet: Added visibility
+- f20daf5 New snippet: r - Return statement [Gerard Roche]
+- f82e9e2 New snippet: p - Class property declaration
+- c6a4806 New snippet: fpro - Final protected class method declaration
 
 0.5.0
 -----
