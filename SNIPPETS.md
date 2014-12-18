@@ -42,6 +42,7 @@ Scope: source
 | `foreachk` | Foreach key-value statement |
 | `fpri` | Final private class method declaration |
 | `fpris` | Final private static class method declaration |
+| `fpro` | Final protected class method declaration |
 | `fpub` | Final public class method declaration |
 | `fpubs` | Final public static class method declaration |
 | `fun` | function … |

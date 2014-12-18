@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.6.0
+-----
+
+- Added: fpro - Final protected class method declaration
+
 0.5.0
 -----
 
