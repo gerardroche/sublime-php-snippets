@@ -3,6 +3,6 @@
 var_dump(\$${1});
 ]]></content>
     <tabTrigger>vd</tabTrigger>
-    <scope>source.php</scope>
+    <scope>source.php - variable</scope>
     <description>Dump information about a variable</description>
 </snippet>
