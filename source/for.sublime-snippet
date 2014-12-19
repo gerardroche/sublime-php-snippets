@@ -6,5 +6,5 @@ for (\$${1:i} = ${2:0}; \$${1:i} < $3; \$${1:i}++) {
 ]]></content>
     <tabTrigger>for</tabTrigger>
     <scope>source.php</scope>
-    <description>For statement</description>
+    <description>for statement</description>
 </snippet>

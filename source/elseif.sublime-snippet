@@ -6,5 +6,5 @@ elseif (${1:expression}) {
 ]]></content>
     <tabTrigger>elseif</tabTrigger>
     <scope>source.php</scope>
-    <description>elseif …</description>
+    <description>elseif statement</description>
 </snippet>

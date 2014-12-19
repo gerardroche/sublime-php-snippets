@@ -6,5 +6,5 @@ foreach (\$${1:collection} as \$${2:key} => \$${3:value}) {
 ]]></content>
     <tabTrigger>foreachk</tabTrigger>
     <scope>source.php</scope>
-    <description>Foreach key-value statement</description>
+    <description>foreach key-value statement</description>
 </snippet>

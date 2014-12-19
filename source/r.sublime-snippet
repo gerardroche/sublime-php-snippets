@@ -4,5 +4,5 @@ return;
 ]]></content>
     <tabTrigger>r</tabTrigger>
     <scope>source.php</scope>
-    <description>Return statement</description>
+    <description>return statement</description>
 </snippet>

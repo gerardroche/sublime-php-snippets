@@ -7,5 +7,5 @@ interface ${1:Name}
 ]]></content>
     <tabTrigger>i</tabTrigger>
     <scope>source.php</scope>
-    <description>Interface declaration</description>
+    <description>Interface definition</description>
 </snippet>

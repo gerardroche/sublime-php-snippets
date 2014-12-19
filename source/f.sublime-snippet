@@ -7,5 +7,5 @@ function ${1:name}(${2})
 ]]></content>
     <tabTrigger>f</tabTrigger>
     <scope>source.php</scope>
-    <description>Function declaration</description>
+    <description>Function definition</description>
 </snippet>

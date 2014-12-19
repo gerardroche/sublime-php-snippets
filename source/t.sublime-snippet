@@ -7,5 +7,5 @@ trait ${1:Name}
 ]]></content>
     <tabTrigger>t</tabTrigger>
     <scope>source.php</scope>
-    <description>Trait declaration</description>
+    <description>trait definition</description>
 </snippet>

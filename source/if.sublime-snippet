@@ -6,5 +6,5 @@ if (${1:expression}) {
 ]]></content>
     <tabTrigger>if</tabTrigger>
     <scope>source.php</scope>
-    <description>if …</description>
+    <description>if statement</description>
 </snippet>
