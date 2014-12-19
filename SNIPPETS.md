@@ -73,6 +73,7 @@ Scope: source
 | `switch` | switch … |
 | `t` | trait definition |
 | `this` | $this-&gt; |
+| `this` | $this-&gt; |
 | `throw` | throw exception statement |
 | `trait` | trait definition |
 | `try` | Wrap in try { … } catch (…) { … } |
