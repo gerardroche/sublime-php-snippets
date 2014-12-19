@@ -70,6 +70,7 @@ Scope: source
 | `ret1` | return true statement |
 | `rt` | return $this statement |
 | `rv` | return variable statement |
+| `self` | self:: |
 | `switch` | switch … |
 | `t` | trait definition |
 | `this` | $this-&gt; |
