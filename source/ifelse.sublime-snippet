@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-if (${1:condition}) {
+if (${1:expression}) {
 	${2:// code...}
 } else {
 	${3:// code...}
