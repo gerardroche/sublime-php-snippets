@@ -74,7 +74,7 @@ Scope: source
 | `t` | Trait declaration |
 | `this` | $this-&gt; |
 | `throw` | Throw Exception statement |
-| `trait` | trait … |
+| `trait` | Trait declaration |
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |
 | `vd` | Dump information about a variable |
