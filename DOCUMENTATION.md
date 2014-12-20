@@ -1,8 +1,6 @@
-Snippets
-========
+# Snippets
 
-Scope: source
--------------
+## Scope: source
 
 | Trigger | Description |
 | ------- | ----------- |
@@ -83,8 +81,7 @@ Scope: source
 | `vde` | Dump information about a variable and exit |
 | `while` | while … |
 
-Scope: phtml
-------------
+## Scope: phtml
 
 | Trigger | Description |
 | ------- | ----------- |

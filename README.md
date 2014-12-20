@@ -1,55 +1,78 @@
-Sublime Text PHP Snippets
-=========================
+# php-snippets
 
-- PHP [~5.6](http://semver.org)
-- [PSR](https://github.com/php-fig/fig-standards) compliant
+php-snippets plugin for Sublime Text. Provides decent PHP snippets.
 
-Snippets
---------
+## Overview
 
-See [SNIPPETS](SNIPPETS.md) for a list of available snippets.
+* [Features](#features)
+* [Key Bindings](#key-bindings)
+* [Installation](#installation)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [Complementary Plugins](#complementary-plugins)
+* [License](#license)
 
-Changelog
----------
+# Features
 
-See [CHANGELOG](CHANGELOG.md).
+* PHP [~5.6][semver]
+* [PSR][php-fig] compliant
+* Scoped to minimise auto-complete noise
 
-Other PHP packages
-------------------
+See the [documentation] for a list of the snippets.
 
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+## Key Bindings
 
-Installation
-------------
+| OS X | Windows | Linux | Description |
+|------|---------|-------|-------------|
+| <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
 
-When using this package it is recommended to disable the PHP package bundled
-with Sublime Text and use the [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar.git)
-package instead because using this package with the Default PHP bundled package
-will result in duplicate snippets.
+To enable [tab-completions][tab-completed-completions] set `"tab_completion": true` in `Preferences > Settings - User`.
 
-See the [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar.git)
-package for more details.
-See also: [PHP Completions](https://github.com/gerardroche/sublime-phpck.git).
+## Installation
 
-### [Git](http://git-scm.com)
+### Manual installation
 
-Clone directly into the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+1. Download or clone this repository to a directory "php-snippets" in the Sublime Text Packages directory for your platform:
+    * Sublime Text 3
+        - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
+        - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
+        - Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/php-snippets`
+    * Sublime Text 2
+        - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-2/Packages/php-snippets`
+        - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-snippets`
+        - Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 2/Packages/php-snippets`
+2. Restart Sublime Text to complete installation. The features listed above should now be available.
 
-### [Manual](http://www.sublimetext.com/docs/3/packages.html)
+## Contributing
 
-1. [Download a release](https://github.com/gerardroche/sublime-php-snippets/releases)
-2. Unzip and copy it to the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+Issue reports and pull requests are always welcome.
 
-Contributing
-------------
+## Changelog
 
-- Bug fixes should be based on the master, otherwise on the develop branch
-- Use descriptive field names. Try to avoid field names like foo, bar, baz, etc.
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Complementary Plugins
+
+* [php-completions]
+* [php-grammar]
+* [php-snippets]
+* [phpunit-completions]
+* [phpunit-snippets]
+* [phpunit]
+
+## License
+
+php-snippets is released under the [BSD 3-Clause License][license].
+
+[documentation]: DOCUMENTATION.md
+[license]: LICENSE
+[Package Control]: https://packagecontrol.io
+[php-completions]: https://github.com/gerardroche/sublime-phpck
+[php-fig]: http://www.php-fig.org
+[php-grammar]: https://github.com/gerardroche/sublime-php-grammar
+[php-snippets]: https://github.com/gerardroche/sublime-php-snippets
+[phpunit-completions]: https://github.com/gerardroche/sublime-phpunitck
+[phpunit-snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
+[phpunit]: https://github.com/gerardroche/sublime-phpunit
+[semver]: http://semver.org
+[tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions
