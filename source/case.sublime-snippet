@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 case ${1:expression}:
-	${0:// code...}
+	$0
 	break;
 ]]></content>
     <tabTrigger>case</tabTrigger>

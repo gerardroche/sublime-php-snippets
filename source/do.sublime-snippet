@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 do {
-	${0:// code...}
+	$0
 } while (${1:condition});
 ]]></content>
     <tabTrigger>do</tabTrigger>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1/.+/\$/}${1:name}${1/.+/ = /}array_map(function (\$${2:value}) {
-    ${0:// code...}
+    $0
 }, \$${3:array})${1/.+/;/}
 ]]></content>
     <tabTrigger>am</tabTrigger>

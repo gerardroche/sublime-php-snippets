@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1:public }function ${2:name}(${3:\$${4:value}${5:=''}})
 {
-	${0:// code...}
+	$0
 }
 ]]></content>
     <tabTrigger>fun</tabTrigger>
