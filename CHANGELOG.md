@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.7.0
+
+## Bug Fixes
+
+* Fixed: `for` snippet PSR coding standard
+
+### New Features
+
+*   Added visibility modifier field to `trait` snippet
+*   New `self` snippet - Expands to `self::`
+*   New variation of `this` snippet that works in a variable scope i.e. both `this` and `$this` now expand to `$this->`
+
+### Changes
+
+*   The last field in a snippets field cycle is longer `// code...`, it's now just blank
+*   Renamed some snippet file names to avoid issues on some systems
+
 ## 0.6.0
 
 ### Bug Fixes
