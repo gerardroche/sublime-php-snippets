@@ -2,7 +2,7 @@
     <content><![CDATA[
 private function ${1:name}(${2:\$...})
 {
-	${0:// code...}
+	$0
 }
 ]]></content>
     <tabTrigger>pri</tabTrigger>

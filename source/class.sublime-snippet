@@ -8,11 +8,11 @@ class ${2:ClassName}${3: extends ${4:AnotherClass}}
 	$5
 	${6:public }function ${7:__construct}(${8:argument})
 	{
-		${0:// code...}
+		$0
 	}
 }
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.php</scope>
-    <description>class …</description>
+    <description>class declaration</description>
 </snippet>

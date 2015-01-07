@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-if (${1:condition}) {
+if (${1:expression}) {
 	${2:// code...}
 } else {
 	${3:// code...}
@@ -9,5 +9,5 @@ $0
 ]]></content>
     <tabTrigger>ifelse</tabTrigger>
     <scope>source.php</scope>
-    <description>if … else …</description>
+    <description>if-else statement</description>
 </snippet>

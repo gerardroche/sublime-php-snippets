@@ -4,5 +4,5 @@ return \$${1:name};
 ]]></content>
     <tabTrigger>rv</tabTrigger>
     <scope>source.php</scope>
-    <description>Return a variable statement</description>
+    <description>return variable statement</description>
 </snippet>

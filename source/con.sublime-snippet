@@ -7,5 +7,5 @@ ${1:public} function __construct(${2:\$${3:param}${4: = ${5:null}}})
 ]]></content>
     <tabTrigger>con</tabTrigger>
     <scope>source.php</scope>
-    <description>&lt;visibility&gt; function __construct</description>
+    <description>Class constructor definition</description>
 </snippet>

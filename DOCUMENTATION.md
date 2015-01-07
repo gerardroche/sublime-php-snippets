@@ -1,8 +1,6 @@
-Snippets
-========
+# Snippets
 
-Scope: source
--------------
+## Scope: source
 
 | Trigger | Description |
 | ------- | ----------- |
@@ -20,12 +18,12 @@ Scope: source
 | `array` | Initialise a variable with an array |
 | `c` | Class declaration |
 | `case` | case … |
-| `class` | class … |
+| `class` | class declaration |
 | `closure` | Closure declaration |
-| `con` | &lt;visibility&gt; function __construct |
+| `con` | Class constructor definition |
 | `def` | define(…, …) |
 | `def?` | defined(…) |
-| `do` | do … while … |
+| `do` | do-while statement |
 | `doc_c` | Class |
 | `doc_d` | Constant Definition |
 | `doc_f` | Function |
@@ -33,24 +31,24 @@ Scope: source
 | `doc_s` | Function Signature |
 | `doc_v` | Class Variable |
 | `echo` | echo &#039;…&#039; |
-| `elseif` | elseif … |
+| `elseif` | elseif statement |
 | `ethis` | echo $this-&gt; |
-| `f` | Function declaration |
+| `f` | Function definition |
 | `flatten` | Flatten an array |
-| `for` | for … |
-| `foreach` | Foreach value statement |
-| `foreachk` | Foreach key-value statement |
+| `for` | for statement |
+| `foreach` | foreach value statement |
+| `foreachk` | foreach key-value statement |
 | `fpri` | Final private class method declaration |
 | `fpris` | Final private static class method declaration |
 | `fpro` | Final protected class method declaration |
 | `fpub` | Final public class method declaration |
 | `fpubs` | Final public static class method declaration |
-| `fun` | function … |
+| `fun` | Function definition |
 | `globals` | $GLOBALS[&#039;…&#039;] |
-| `i` | Interface declaration |
-| `if` | if … |
+| `i` | Interface definition |
+| `if` | if statement |
 | `if?` | $… = ( … ) ? … : … |
-| `ifelse` | if … else … |
+| `ifelse` | if-else statement |
 | `incl` | include … |
 | `incl1` | include_once … |
 | `m` | Class method declaration |
@@ -62,27 +60,28 @@ Scope: source
 | `pro` | Protected class method declaration |
 | `pub` | Public class method declaration |
 | `pubs` | Public static class method declaration |
-| `r` | Return statement |
+| `r` | return statement |
 | `req` | Require expression |
 | `req1` | Require once expression |
 | `ret` | return |
-| `ret0` | return false |
-| `ret1` | return true |
-| `rt` | Return $this statement |
-| `rv` | Return a variable statement |
+| `ret0` | return false statement |
+| `ret1` | return true statement |
+| `rt` | return $this statement |
+| `rv` | return variable statement |
+| `self` | self:: |
 | `switch` | switch … |
-| `t` | Trait declaration |
+| `t` | trait definition |
 | `this` | $this-&gt; |
-| `throw` | Throw Exception statement |
-| `trait` | trait … |
+| `this` | $this-&gt; |
+| `throw` | throw exception statement |
+| `trait` | trait definition |
 | `try` | Wrap in try { … } catch (…) { … } |
 | `use` | Namespace use declaration |
 | `vd` | Dump information about a variable |
 | `vde` | Dump information about a variable and exit |
 | `while` | while … |
 
-Scope: phtml
-------------
+## Scope: phtml
 
 | Trigger | Description |
 | ------- | ----------- |
