@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-protected function ${1:name}(${2:\$...})
+protected function ${1:name}(\$$2)
 {
 	$0
 }

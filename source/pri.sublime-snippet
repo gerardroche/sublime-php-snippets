@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-private function ${1:name}(${2:\$...})
+private function ${1:name}(\$$2)
 {
 	$0
 }
