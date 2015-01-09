@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1/.+/\/**\n * /}${1:description}${1/.+/\n *\/\n//}class ${2:Name}${3: extends ${4:ExtendsName}}
+${1/.+/\/**\n * /}${1:description}${1/.+/\n *\/\n//}class ${2:Name}${3/.+/ extends /}${3:ExtendsName}
 {
-    ${5/.+/\/**\n     * /}${5:description}${5/.+/\n     *\/\n    //}${6:public }function ${7:__construct}(${8:argument})
+    ${4/.+/\/**\n     * /}${4:description}${4/.+/\n     *\/\n    //}${5:public }function ${6:__construct}(${7:argument})
     {
         $0
     }
