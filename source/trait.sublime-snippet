@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${1:[description]}
+ * ${1:summary}
  */
 trait ${2:Name}
 {

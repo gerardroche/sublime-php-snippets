@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${4:undocumented function}
+ * ${4:summary}
  *
  * @return ${5:void}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$6

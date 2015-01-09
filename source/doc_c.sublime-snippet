@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${3:undocumented class}
+ * ${3:summary}
  *
  * @package ${4:default}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}

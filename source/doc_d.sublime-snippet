@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${3:undocumented constant}
+ * ${3:summary}
  */
 define($1, $2);$0
 ]]></content>
