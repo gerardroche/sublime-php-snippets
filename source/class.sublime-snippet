@@ -2,7 +2,7 @@
     <content><![CDATA[
 ${1/.+/\/**\n * /}${1:description}${1/.+/\n *\/\n//}class ${2:Name}${3/.+/ extends /}${3:ExtendsName}
 {
-    ${4/.+/\/**\n     * /}${4:description}${4/.+/\n     *\/\n    //}${5:public }function ${6:__construct}(${7:argument})
+    ${4/.+/\/**\n     * /}${4:description}${4/.+/\n     *\/\n    //}${5:public }function ${6:__construct}($7)
     {
         $0
     }
