@@ -6,7 +6,8 @@ ${TM_SELECTED_TEXT/([\t ]*).*/$1/m}} catch (${1:Exception} ${2:\$e}) {
 ${TM_SELECTED_TEXT/([\t ]*).*/$1/m}	$0
 ${TM_SELECTED_TEXT/([\t ]*).*/$1/m}}
 ]]></content>
+    <scopeName>language_construct</scopeName>
     <tabTrigger>try</tabTrigger>
-    <scope>source.php</scope>
-    <description>Wrap in try { … } catch (…) { … }</description>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
+    <description>Wrap in try { &#x2026; } catch (&#x2026;) { &#x2026; }</description>
 </snippet>

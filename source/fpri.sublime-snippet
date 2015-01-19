@@ -6,6 +6,7 @@ final private function ${1:name}(\$$2)
 }
 ]]></content>
     <tabTrigger>fpri</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>Final private class method declaration</description>
 </snippet>

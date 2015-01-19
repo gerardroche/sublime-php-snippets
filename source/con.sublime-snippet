@@ -6,6 +6,7 @@ ${1:public} function __construct(${2:\$${3:param}${4: = ${5:null}}})
 }
 ]]></content>
     <tabTrigger>con</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>Class constructor definition</description>
 </snippet>

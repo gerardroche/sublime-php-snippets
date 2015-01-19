@@ -3,6 +3,7 @@
 return \$this;
 ]]></content>
     <tabTrigger>rt</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>return $this statement</description>
 </snippet>

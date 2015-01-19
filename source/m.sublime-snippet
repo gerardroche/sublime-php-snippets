@@ -6,6 +6,7 @@ ${1:public} function ${2:name}(${3})
 }
 ]]></content>
     <tabTrigger>m</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>Class method declaration</description>
 </snippet>

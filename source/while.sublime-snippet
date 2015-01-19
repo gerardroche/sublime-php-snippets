@@ -4,7 +4,8 @@ while (${1:condition}) {
     $0
 }
 ]]></content>
+    <scopeName>language_construct</scopeName>
     <tabTrigger>while</tabTrigger>
-    <scope>source.php</scope>
-    <description>while …</description>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
+    <description>while &#x2026;</description>
 </snippet>

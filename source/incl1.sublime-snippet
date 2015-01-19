@@ -3,6 +3,7 @@
 include_once '${1:file}';$0
 ]]></content>
     <tabTrigger>incl1</tabTrigger>
-    <scope>source.php</scope>
-    <description>include_once …</description>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
+    <description>include_once &#x2026;</description>
 </snippet>

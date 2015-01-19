@@ -9,6 +9,7 @@ ${1/.+/\/**\n * /}${1:summary}${1/.+/\n *\/\n//}class ${2:Name}${3/.+/ extends /
 }
 ]]></content>
     <tabTrigger>class</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>class declaration</description>
 </snippet>
