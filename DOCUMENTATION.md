@@ -44,6 +44,7 @@
 | `fpub` | Final public class method declaration |
 | `fpubs` | Final public static class method declaration |
 | `fun` | Function definition |
+| `getter` | getter |
 | `globals` | $GLOBALS[&#039;…&#039;] |
 | `i` | Interface definition |
 | `if` | if statement |
