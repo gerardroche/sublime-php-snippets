@@ -4,6 +4,7 @@
 array_walk_recursive(\$${2:array}, function (\$x) use (&\$${1:return}) { \$${1:return}[] = \$x; });
 ]]></content>
     <tabTrigger>flatten</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>function</scopeName>
+    <scope>source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other</scope>
     <description>Flatten an array</description>
 </snippet>

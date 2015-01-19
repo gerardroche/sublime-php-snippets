@@ -44,6 +44,7 @@
 | `fpub` | Final public class method declaration |
 | `fpubs` | Final public static class method declaration |
 | `fun` | Function definition |
+| `getter` | getter |
 | `globals` | $GLOBALS[&#039;…&#039;] |
 | `i` | Interface definition |
 | `if` | if statement |
@@ -69,6 +70,7 @@
 | `rt` | return $this statement |
 | `rv` | return variable statement |
 | `self` | self:: |
+| `setter` | setter |
 | `switch` | switch … |
 | `t` | trait definition |
 | `this` | $this-&gt; |

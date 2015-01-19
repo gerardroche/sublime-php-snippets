@@ -5,6 +5,7 @@ for (\$${1:i} = ${2:0}; \$${1:i} < $3; \$${1:i}++) {
 }
 ]]></content>
     <tabTrigger>for</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>for statement</description>
 </snippet>

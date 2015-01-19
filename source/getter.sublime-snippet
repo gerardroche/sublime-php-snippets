@@ -1,12 +1,15 @@
 <snippet>
     <content><![CDATA[
-protected function ${1:name}(\$$2)
+/**
+ * @return ${2:type}
+ */
+public function get${1/(.*)/\u$1/}()
 {
-	$0
+    return \$this->${1:name};
 }
 ]]></content>
-    <tabTrigger>pro</tabTrigger>
+    <tabTrigger>getter</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Protected class method declaration</description>
+    <description>getter</description>
 </snippet>

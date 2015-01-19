@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * ${2:undocumented class}
+ * ${2:summary}
  *
  * @package ${3:default}
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
@@ -12,6 +12,7 @@ interface $1
 }
 ]]></content>
     <tabTrigger>doc_i</tabTrigger>
-    <scope>source.php</scope>
+    <scopeName>language_construct</scopeName>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>Interface</description>
 </snippet>
