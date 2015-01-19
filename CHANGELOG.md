@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.8.0
+
+### New Features
+
+* `class` snippet:
+    - PHPDoc is deletable
+    - Constructor has a new deletable PHPDoc
+    - Deleting the extends field deletes the extend keyword
+    - Simplified constructor field
+* All snippets now target more specific scopes to minimise auto-complete noise
+* Method snippets, like `pub` and `pri`, now prefills a `$` for argument fields
+* New snippet: `getter` - basic class method getter
+* New snippet: `setter` - basic class method setter
+ 
+### Changes
+
+* PHPDoc field names "description" changed to "summary" as per [PHPDoc specification](http://phpdoc.org/docs/latest/guides/docblocks.html)
+
 ## 0.7.0
 
 ## Bug Fixes
