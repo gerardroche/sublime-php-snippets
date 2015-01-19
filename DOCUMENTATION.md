@@ -70,6 +70,7 @@
 | `rt` | return $this statement |
 | `rv` | return variable statement |
 | `self` | self:: |
+| `setter` | setter |
 | `switch` | switch … |
 | `t` | trait definition |
 | `this` | $this-&gt; |
