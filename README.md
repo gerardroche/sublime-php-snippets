@@ -7,6 +7,7 @@ php-snippets plugin for Sublime Text. Provides decent PHP snippets.
 * [Features](#features)
 * [Key Bindings](#key-bindings)
 * [Installation](#installation)
+* [Configuration](#configuration)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [Complementary Plugins](#complementary-plugins)
@@ -42,6 +43,50 @@ To enable [tab-completions][tab-completed-completions] set `"tab_completion": tr
         - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-snippets`
         - Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 2/Packages/php-snippets`
 2. Restart Sublime Text to complete installation. The features listed above should now be available.
+
+## Configuration
+
+Set snippet variables using a `.tmPreferences` file. Put the file in the "User" packages directory. Locate it via `Menu > Preferences > Browse Packages...`
+
+### Example
+
+By default the `echo` snippet in a html scope expands with a short php tag:
+
+```php
+<?= $var ?>
+```
+
+To use the alternative:
+
+```php
+<?php echo $var ?>
+```
+
+Add **`php-snippets-phtml-settings.tmPreferences`** to the User packages directory:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>php-snippets phtml settings</string>
+    <key>scope</key>
+    <string>text.html.basic</string>
+    <key>settings</key>
+    <dict>
+        <key>shellVariables</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>TM_PHP_OPEN_TAG_WITH_ECHO</string>
+                <key>value</key>
+                <string>php echo</string>
+            </dict>
+        </array>
+    </dict>
+</dict>
+</plist>
+```
 
 ## Contributing
 
