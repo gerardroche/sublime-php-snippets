@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.0
+
+### Changes
+
+* `phtml` snippets now use php short tags by default e.g. `<?= $var ?>`. See the [configuration section](https://github.com/gerardroche/sublime-php-snippets#configuration) in the README.md for more details. 
+
 ## 0.8.0
 
 ### New Features
