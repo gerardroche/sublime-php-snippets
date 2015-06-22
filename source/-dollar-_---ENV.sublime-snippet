@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>$_</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>ENV['...']</description>
+    <description>PHP: ENV['...']</description>
 </snippet>

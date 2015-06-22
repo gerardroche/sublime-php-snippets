@@ -5,5 +5,5 @@ include '${1:file}';$0
     <tabTrigger>incl</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>include expression</description>
+    <description>PHP: include expression</description>
 </snippet>

@@ -8,5 +8,5 @@ final private static function ${1:name}(\$$2)
     <tabTrigger>fpris</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>final private static class method declaration</description>
+    <description>PHP: final private static class method declaration</description>
 </snippet>

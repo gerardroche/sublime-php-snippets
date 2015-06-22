@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>array</tabTrigger>
     <scope>source.php - comment - variable</scope>
-    <description>Initialise a variable with an array</description>
+    <description>PHP: Initialise a variable with an array</description>
 </snippet>

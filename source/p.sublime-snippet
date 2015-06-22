@@ -9,5 +9,5 @@ ${0}
     <tabTrigger>p</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>class property declaration</description>
+    <description>PHP: class property declaration</description>
 </snippet>

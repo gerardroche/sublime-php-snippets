@@ -9,5 +9,5 @@ ${TM_SELECTED_TEXT/([\t ]*).*/$1/m}}
     <scopeName>language_construct</scopeName>
     <tabTrigger>try</tabTrigger>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Wrap in try { ... } catch (...) { ... }</description>
+    <description>PHP: Wrap in try { ... } catch (...) { ... }</description>
 </snippet>

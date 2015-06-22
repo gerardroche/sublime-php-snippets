@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>$_</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>REQUEST['...']</description>
+    <description>PHP: REQUEST['...']</description>
 </snippet>

@@ -5,5 +5,5 @@ require_once '${1:filename}';
     <tabTrigger>req1</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>require_once expression</description>
+    <description>PHP: require_once expression</description>
 </snippet>
