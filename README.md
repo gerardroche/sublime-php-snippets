@@ -1,6 +1,6 @@
-# php-snippets
+# sublime-php-snippets
 
-php-snippets plugin for Sublime Text. Provides decent PHP snippets.
+sublime-php-snippets plugin for Sublime Text. Provides decent PHP snippets.
 
 ## Overview
 
@@ -107,7 +107,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-php-snippets is released under the [BSD 3-Clause License][license].
+sublime-php-snippets is released under the [BSD 3-Clause License][license].
 
 [documentation]: DOCUMENTATION.md
 [license]: LICENSE
