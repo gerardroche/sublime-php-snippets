@@ -3,6 +3,6 @@
 \$_COOKIE['${1:variable}']
 ]]></content>
     <tabTrigger>$_</tabTrigger>
-    <scope>source.php</scope>
+    <scope>source.php variable - comment</scope>
     <description>COOKIE['...']</description>
 </snippet>

@@ -3,7 +3,8 @@
 ## 0.10.0 (upcoming)
 
 * Improved snippet descriptions
-* Fixed PHTML snippets for the new syntax in `>=3092`
+* Fixed: PHTML snippets for the new syntax in `>=3092`
+* Fixed: Only trigger superglobals snippets `$_` in a variable scope
 
 ## 0.9.0
 

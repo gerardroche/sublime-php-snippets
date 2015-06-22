@@ -3,6 +3,6 @@
 \$_GET['${1:variable}']
 ]]></content>
     <tabTrigger>$_</tabTrigger>
-    <scope>source.php</scope>
+    <scope>source.php variable - comment</scope>
     <description>GET['...']</description>
 </snippet>
