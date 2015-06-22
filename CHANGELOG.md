@@ -3,6 +3,7 @@
 ## 0.10.0 (upcoming)
 
 * Improved snippet descriptions
+* Fixed PHTML snippets for the new syntax in `>=3092`
 
 ## 0.9.0
 
