@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>echoh</tabTrigger>
     <scope>text.html.basic - source.php</scope>
-    <description>&lt;?php echo htmlentities(...) ?&gt;</description>
+    <description>PHP (HTML): &lt;?php echo htmlentities(...) ?&gt;</description>
 </snippet>

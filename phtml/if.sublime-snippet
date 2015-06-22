@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>if</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>&lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt;</description>
+    <description>PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt;</description>
 </snippet>

@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>foreach</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>&lt;?php foreach (...) ... &lt;?php endforeach ?&gt;</description>
+    <description>PHP (HTML): &lt;?php foreach (...) ... &lt;?php endforeach ?&gt;</description>
 </snippet>
