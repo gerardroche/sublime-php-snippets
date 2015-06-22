@@ -5,5 +5,5 @@
     <tabTrigger>globals</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>$GLOBALS['&#x2026;']</description>
+    <description>$GLOBALS['...']</description>
 </snippet>

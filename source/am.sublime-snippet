@@ -7,5 +7,5 @@ ${1/.+/\$/}${1:name}${1/.+/ = /}array_map(function (\$${2:value}) {
     <tabTrigger>am</tabTrigger>
     <scopeName>function</scopeName>
     <scope>source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other</scope>
-    <description>Array map a closure</description>
+    <description>array map a closure</description>
 </snippet>

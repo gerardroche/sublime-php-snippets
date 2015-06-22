@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>$_</tabTrigger>
     <scope>source.php</scope>
-    <description>SESSION['…']</description>
+    <description>SESSION['...']</description>
 </snippet>

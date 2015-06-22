@@ -8,5 +8,5 @@ final public function ${1:name}(\$$2)
     <tabTrigger>fpub</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Final public class method declaration</description>
+    <description>final public class method declaration</description>
 </snippet>
