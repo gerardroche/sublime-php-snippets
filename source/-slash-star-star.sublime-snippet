@@ -5,6 +5,6 @@
  */
 ]]></content>
     <tabTrigger>/**</tabTrigger>
-    <scope>source.php</scope>
+    <scope>source.php - comment - variable</scope>
     <description>Start Docblock</description>
 </snippet>

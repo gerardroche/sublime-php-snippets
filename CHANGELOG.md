@@ -5,6 +5,7 @@
 * Improved snippet descriptions
 * Fixed: PHTML snippets for the new syntax in `>=3092`
 * Fixed: Only trigger superglobals snippets `$_` in a variable scope
+* Fixed: Some snippets like `array` and `/**` no longer trigger in comments or variables
 
 ## 0.9.0
 
