@@ -1,7 +1,9 @@
 # sublime-php-snippets changelog
 
-## 0.10.0 (upcoming)
+## 0.10.0
 
+* PHP source snippets descriptions are prefixed with "PHP: "
+* PHTML snippets descriptions are prefixed with "PHP (HTML):"
 * Improved snippet descriptions
 * Fixed: PHTML snippets for the new syntax in `>=3092`
 * Fixed: Only trigger superglobals snippets `$_` in a variable scope
