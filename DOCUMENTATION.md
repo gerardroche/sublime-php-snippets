@@ -4,66 +4,66 @@
 
 | Trigger | Description |
 | ------- | ----------- |
-| `$_` | COOKIE[&#039;…&#039;] |
-| `$_` | ENV[&#039;…&#039;] |
-| `$_` | FILES[&#039;…&#039;] |
-| `$_` | GET[&#039;…&#039;] |
-| `$_` | POST[&#039;…&#039;] |
-| `$_` | REQUEST[&#039;…&#039;] |
-| `$_` | SERVER[&#039;…&#039;] |
-| `$_` | SESSION[&#039;…&#039;] |
+| `$_` | COOKIE[&#039;...&#039;] |
+| `$_` | ENV[&#039;...&#039;] |
+| `$_` | FILES[&#039;...&#039;] |
+| `$_` | GET[&#039;...&#039;] |
+| `$_` | POST[&#039;...&#039;] |
+| `$_` | REQUEST[&#039;...&#039;] |
+| `$_` | SERVER[&#039;...&#039;] |
+| `$_` | SESSION[&#039;...&#039;] |
 | `/**` | Start Docblock |
 | `<?` | Script start tag |
-| `am` | Array map a closure |
+| `am` | array map a closure |
 | `array` | Initialise a variable with an array |
-| `c` | Class declaration |
-| `case` | case … |
+| `c` | class declaration |
+| `case` | case ... |
 | `class` | class declaration |
 | `closure` | Closure declaration |
-| `con` | Class constructor definition |
-| `def` | define(…, …) |
-| `def?` | defined(…) |
+| `con` | class constructor definition |
+| `def` | define(..., ...) |
+| `def?` | defined(...) |
 | `do` | do-while statement |
-| `doc_c` | Class |
-| `doc_d` | Constant Definition |
-| `doc_f` | Function |
-| `doc_i` | Interface |
-| `doc_s` | Function Signature |
-| `doc_v` | Class Variable |
-| `echo` | echo &#039;…&#039; |
+| `doc_c` | Documented class |
+| `doc_d` | Documented constant definition |
+| `doc_f` | Documented function |
+| `doc_i` | Documented interface |
+| `doc_s` | Documented function signature |
+| `doc_v` | Documented class variable |
+| `echo` | echo &#039;...&#039; |
 | `elseif` | elseif statement |
 | `ethis` | echo $this-&gt; |
-| `f` | Function definition |
+| `f` | function definition |
 | `flatten` | Flatten an array |
 | `for` | for statement |
 | `foreach` | foreach value statement |
 | `foreachk` | foreach key-value statement |
-| `fpri` | Final private class method declaration |
-| `fpris` | Final private static class method declaration |
-| `fpro` | Final protected class method declaration |
-| `fpub` | Final public class method declaration |
-| `fpubs` | Final public static class method declaration |
-| `fun` | Function definition |
+| `fpri` | final private class method declaration |
+| `fpris` | final private static class method declaration |
+| `fpro` | final protected class method declaration |
+| `fpub` | final public class method declaration |
+| `fpubs` | final public static class method declaration |
+| `fun` | function definition |
 | `getter` | getter |
-| `globals` | $GLOBALS[&#039;…&#039;] |
-| `i` | Interface definition |
+| `globals` | $GLOBALS[&#039;...&#039;] |
+| `i` | interface definition |
 | `if` | if statement |
-| `if?` | $… = ( … ) ? … : … |
+| `if?` | $... = ( ... ) ? ... : ... |
 | `ifelse` | if-else statement |
-| `incl` | include … |
-| `incl1` | include_once … |
-| `m` | Class method declaration |
-| `n` | Namespace definition |
-| `p` | Class property declaration |
+| `incl` | include expression |
+| `incl1` | include_once expression |
+| `m` | class method declaration |
+| `n` | namespace definition |
+| `p` | class property declaration |
 | `pr` | Print human readable information about a variable |
 | `pre` | Print human readable information about a variable and exit |
-| `pri` | Private class method declaration |
-| `pro` | Protected class method declaration |
-| `pub` | Public class method declaration |
-| `pubs` | Public static class method declaration |
+| `pri` | private class method declaration |
+| `pro` | protected class method declaration |
+| `pub` | public class method declaration |
+| `pubs` | public static class method declaration |
 | `r` | return statement |
-| `req` | Require expression |
-| `req1` | Require once expression |
+| `req` | require expression |
+| `req1` | require_once expression |
 | `ret` | return |
 | `ret0` | return false statement |
 | `ret1` | return true statement |
@@ -71,29 +71,29 @@
 | `rv` | return variable statement |
 | `self` | self:: |
 | `setter` | setter |
-| `switch` | switch … |
+| `switch` | switch ... |
 | `t` | trait definition |
 | `this` | $this-&gt; |
 | `this` | $this-&gt; |
 | `throw` | throw exception statement |
 | `trait` | trait definition |
-| `try` | Wrap in try { … } catch (…) { … } |
-| `use` | Namespace use declaration |
+| `try` | Wrap in try { ... } catch (...) { ... } |
+| `use` | namespace use declaration |
 | `vd` | Dump information about a variable |
 | `vde` | Dump information about a variable and exit |
-| `while` | while … |
+| `while` | while ... |
 
 ## Scope: phtml
 
 | Trigger | Description |
 | ------- | ----------- |
-| `echo` | &lt;?php echo … ?&gt; |
-| `echoh` | &lt;?php echo htmlentities(…) ?&gt; |
+| `echo` | &lt;?php echo ... ?&gt; |
+| `echoh` | &lt;?php echo htmlentities(...) ?&gt; |
 | `else` | &lt;?php else: ?&gt; |
-| `ethis` | &lt;?php echo $this-&gt;… ?&gt; |
-| `foreach` | &lt;?php foreach (…) … &lt;?php endforeach ?&gt; |
-| `if` | &lt;?php if (…) ?&gt; … &lt;?php endif ?&gt; |
-| `ifelse` | &lt;?php if (…) ?&gt; … &lt;?php else ?&gt; … &lt;?php endif ?&gt; |
-| `php` | &lt;?php … ?&gt; |
-| `this` | &lt;?php $this-&gt;… ?&gt; |
+| `ethis` | &lt;?php echo $this-&gt;... ?&gt; |
+| `foreach` | &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
+| `if` | &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
+| `ifelse` | &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
+| `php` | &lt;?php ... ?&gt; |
+| `this` | &lt;?php $this-&gt;... ?&gt; |
 
