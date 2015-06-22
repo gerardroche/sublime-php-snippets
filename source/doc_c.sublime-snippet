@@ -4,7 +4,7 @@
  * ${3:summary}
  *
  * @package ${4:default}
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${Documented _AUTHOR:$TM_FULLNAME}
  */
 $1class $2
 {
