@@ -4,7 +4,7 @@
  * ${3:summary}
  *
  * @package ${4:default}
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${Documented _AUTHOR:$TM_FULLNAME}
  */
 $1class $2
 {
@@ -14,5 +14,5 @@ $1class $2
     <tabTrigger>doc_c</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Class</description>
+    <description>PHP: Documented class</description>
 </snippet>

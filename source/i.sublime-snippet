@@ -8,5 +8,5 @@ interface ${1:Name}
     <tabTrigger>i</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Interface definition</description>
+    <description>PHP: interface definition</description>
 </snippet>

@@ -7,5 +7,5 @@ ${1/.+/\$/}${1:name}${1/.+/ = /}function (\$${2:value})${3/.+/ use \(\$/}${3:nam
     <tabTrigger>closure</tabTrigger>
     <scopeName>function</scopeName>
     <scope>source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other</scope>
-    <description>Closure declaration</description>
+    <description>PHP: Closure declaration</description>
 </snippet>

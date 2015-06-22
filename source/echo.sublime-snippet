@@ -5,5 +5,5 @@ echo '${1:string}';$0
     <tabTrigger>echo</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>echo '&#x2026;'</description>
+    <description>PHP: echo '...'</description>
 </snippet>

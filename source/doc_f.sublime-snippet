@@ -4,7 +4,7 @@
  * ${4:summary}
  *
  * @return ${5:void}
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$6
+ * @author ${Documented _AUTHOR:$TM_FULLNAME}$6
  */
 $1function $2($3)
 {
@@ -14,5 +14,5 @@ $1function $2($3)
     <tabTrigger>doc_f</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Function</description>
+    <description>PHP: Documented function</description>
 </snippet>

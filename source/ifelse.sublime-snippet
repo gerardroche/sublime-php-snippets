@@ -10,5 +10,5 @@ $0
     <tabTrigger>ifelse</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>if-else statement</description>
+    <description>PHP: if-else statement</description>
 </snippet>

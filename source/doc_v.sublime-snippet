@@ -10,5 +10,5 @@ ${1:private} \$$2;$0
     <tabTrigger>doc_v</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Class Variable</description>
+    <description>PHP: Documented class variable</description>
 </snippet>

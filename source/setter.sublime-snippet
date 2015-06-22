@@ -12,5 +12,5 @@ public function set${1/(.*)/\u$1/}(\$$1)
     <tabTrigger>setter</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>setter</description>
+    <description>PHP: setter</description>
 </snippet>

@@ -8,5 +8,5 @@ final public static function ${1:name}(\$$2)
     <tabTrigger>fpubs</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>Final public static class method declaration</description>
+    <description>PHP: final public static class method declaration</description>
 </snippet>

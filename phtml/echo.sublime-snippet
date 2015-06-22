@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} ${1:\$var} ?>$0
 ]]></content>
     <tabTrigger>echo</tabTrigger>
-    <scope>text.html - source.php</scope>
-    <description>&lt;?php echo … ?&gt;</description>
+    <scope>text.html.basic - source.php</scope>
+    <description>PHP (HTML): &lt;?php echo ... ?&gt;</description>
 </snippet>
