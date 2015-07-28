@@ -3,7 +3,7 @@
 ## 0.11.0
 
 * Now installable via Package Control
-* Changed: removed semicolon from end of "this" snippet. This allows a second tab to complete "->" e.g. type tab at `this|` produces `$this|` type tab again gets `$this->|`.
+* Changed: removed semicolon from end of "rt" snippet. This allows a second tab to complete "->" e.g. type tab at `rt|` produces `return $this|` type tab again gets `return $this->|`.
 
 ## 0.10.0
 
