@@ -1,6 +1,6 @@
 # sublime-php-snippets changelog
 
-## 0.11.0 (upcoming)
+## 0.11.0
 
 * Now installable via Package Control
 * Changed: removed semicolon from end of "this" snippet. This allows a second tab to complete "->" e.g. type tab at `this|` produces `$this|` type tab again gets `$this->|`.
