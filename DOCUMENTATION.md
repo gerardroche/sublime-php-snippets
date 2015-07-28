@@ -1,7 +1,5 @@
 # Snippets
 
-## Scope: source.php
-
 | Trigger | Description |
 | ------- | ----------- |
 | `$_` | PHP: COOKIE['...'] |
@@ -30,12 +28,17 @@
 | `doc_i` | PHP: Documented interface |
 | `doc_s` | PHP: Documented function signature |
 | `doc_v` | PHP: Documented class variable |
+| `echo` | PHP (HTML): &lt;?php echo ... ?&gt; |
 | `echo` | PHP: echo '...' |
+| `echoh` | PHP (HTML): &lt;?php echo htmlentities(...) ?&gt; |
+| `else` | PHP (HTML): &lt;?php else: ?&gt; |
 | `elseif` | PHP: elseif statement |
+| `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
 | `ethis` | PHP: echo $this-&gt; |
 | `f` | PHP: function definition |
 | `flatten` | PHP: Flatten an array |
 | `for` | PHP: for statement |
+| `foreach` | PHP (HTML): &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
 | `foreach` | PHP: foreach value statement |
 | `foreachk` | PHP: foreach key-value statement |
 | `fpri` | PHP: final private class method declaration |
@@ -47,14 +50,17 @@
 | `getter` | PHP: getter |
 | `globals` | PHP: $GLOBALS['...'] |
 | `i` | PHP: interface definition |
+| `if` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
 | `if` | PHP: if statement |
 | `if?` | PHP: $... = ( ... ) ? ... : ... |
+| `ifelse` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
 | `ifelse` | PHP: if-else statement |
 | `incl` | PHP: include expression |
 | `incl1` | PHP: include_once expression |
 | `m` | PHP: class method declaration |
 | `n` | PHP: namespace definition |
 | `p` | PHP: class property declaration |
+| `php` | PHP (HTML): &lt;?php ... ?&gt; |
 | `pr` | PHP: Print human readable information about a variable |
 | `pre` | PHP: Print human readable information about a variable and exit |
 | `pri` | PHP: private class method declaration |
@@ -73,7 +79,7 @@
 | `setter` | PHP: setter |
 | `switch` | PHP: switch ... |
 | `t` | PHP: trait definition |
-| `this` | PHP: $this-&gt; |
+| `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
 | `this` | PHP: $this-&gt; |
 | `throw` | PHP: throw exception statement |
 | `trait` | PHP: trait definition |
@@ -82,18 +88,3 @@
 | `vd` | PHP: Dump information about a variable |
 | `vde` | PHP: Dump information about a variable and exit |
 | `while` | PHP: while ... |
-
-## Scope: text.html.basic
-
-| Trigger | Description |
-| ------- | ----------- |
-| `echo` | PHP (HTML): &lt;?php echo ... ?&gt; |
-| `echoh` | PHP (HTML): &lt;?php echo htmlentities(...) ?&gt; |
-| `else` | PHP (HTML): &lt;?php else: ?&gt; |
-| `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
-| `foreach` | PHP (HTML): &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
-| `if` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
-| `ifelse` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
-| `php` | PHP (HTML): &lt;?php ... ?&gt; |
-| `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
-
