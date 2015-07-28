@@ -1,99 +1,99 @@
 # Snippets
 
-## Scope: source
+## Scope: source.php
 
 | Trigger | Description |
 | ------- | ----------- |
-| `$_` | COOKIE[&#039;...&#039;] |
-| `$_` | ENV[&#039;...&#039;] |
-| `$_` | FILES[&#039;...&#039;] |
-| `$_` | GET[&#039;...&#039;] |
-| `$_` | POST[&#039;...&#039;] |
-| `$_` | REQUEST[&#039;...&#039;] |
-| `$_` | SERVER[&#039;...&#039;] |
-| `$_` | SESSION[&#039;...&#039;] |
-| `/**` | Start Docblock |
-| `<?` | Script start tag |
-| `am` | array map a closure |
-| `array` | Initialise a variable with an array |
-| `c` | class declaration |
-| `case` | case ... |
-| `class` | class declaration |
-| `closure` | Closure declaration |
-| `con` | class constructor definition |
-| `def` | define(..., ...) |
-| `def?` | defined(...) |
-| `do` | do-while statement |
-| `doc_c` | Documented class |
-| `doc_d` | Documented constant definition |
-| `doc_f` | Documented function |
-| `doc_i` | Documented interface |
-| `doc_s` | Documented function signature |
-| `doc_v` | Documented class variable |
-| `echo` | echo &#039;...&#039; |
-| `elseif` | elseif statement |
-| `ethis` | echo $this-&gt; |
-| `f` | function definition |
-| `flatten` | Flatten an array |
-| `for` | for statement |
-| `foreach` | foreach value statement |
-| `foreachk` | foreach key-value statement |
-| `fpri` | final private class method declaration |
-| `fpris` | final private static class method declaration |
-| `fpro` | final protected class method declaration |
-| `fpub` | final public class method declaration |
-| `fpubs` | final public static class method declaration |
-| `fun` | function definition |
-| `getter` | getter |
-| `globals` | $GLOBALS[&#039;...&#039;] |
-| `i` | interface definition |
-| `if` | if statement |
-| `if?` | $... = ( ... ) ? ... : ... |
-| `ifelse` | if-else statement |
-| `incl` | include expression |
-| `incl1` | include_once expression |
-| `m` | class method declaration |
-| `n` | namespace definition |
-| `p` | class property declaration |
-| `pr` | Print human readable information about a variable |
-| `pre` | Print human readable information about a variable and exit |
-| `pri` | private class method declaration |
-| `pro` | protected class method declaration |
-| `pub` | public class method declaration |
-| `pubs` | public static class method declaration |
-| `r` | return statement |
-| `req` | require expression |
-| `req1` | require_once expression |
-| `ret` | return |
-| `ret0` | return false statement |
-| `ret1` | return true statement |
-| `rt` | return $this statement |
-| `rv` | return variable statement |
-| `self` | self:: |
-| `setter` | setter |
-| `switch` | switch ... |
-| `t` | trait definition |
-| `this` | $this-&gt; |
-| `this` | $this-&gt; |
-| `throw` | throw exception statement |
-| `trait` | trait definition |
-| `try` | Wrap in try { ... } catch (...) { ... } |
-| `use` | namespace use declaration |
-| `vd` | Dump information about a variable |
-| `vde` | Dump information about a variable and exit |
-| `while` | while ... |
+| `$_` | PHP: COOKIE['...'] |
+| `$_` | PHP: ENV['...'] |
+| `$_` | PHP: FILES['...'] |
+| `$_` | PHP: GET['...'] |
+| `$_` | PHP: POST['...'] |
+| `$_` | PHP: REQUEST['...'] |
+| `$_` | PHP: SERVER['...'] |
+| `$_` | PHP: SESSION['...'] |
+| `<?` | PHP: Script start tag |
+| `/**` | PHP: Start Docblock |
+| `am` | PHP: array map a closure |
+| `array` | PHP: Initialise a variable with an array |
+| `c` | PHP: class declaration |
+| `case` | PHP: case ... |
+| `class` | PHP: class declaration |
+| `closure` | PHP: Closure declaration |
+| `con` | PHP: class constructor definition |
+| `def` | PHP: define(..., ...) |
+| `def?` | PHP: defined(...) |
+| `do` | PHP: do-while statement |
+| `doc_c` | PHP: Documented class |
+| `doc_d` | PHP: Documented constant definition |
+| `doc_f` | PHP: Documented function |
+| `doc_i` | PHP: Documented interface |
+| `doc_s` | PHP: Documented function signature |
+| `doc_v` | PHP: Documented class variable |
+| `echo` | PHP: echo '...' |
+| `elseif` | PHP: elseif statement |
+| `ethis` | PHP: echo $this-&gt; |
+| `f` | PHP: function definition |
+| `flatten` | PHP: Flatten an array |
+| `for` | PHP: for statement |
+| `foreach` | PHP: foreach value statement |
+| `foreachk` | PHP: foreach key-value statement |
+| `fpri` | PHP: final private class method declaration |
+| `fpris` | PHP: final private static class method declaration |
+| `fpro` | PHP: final protected class method declaration |
+| `fpub` | PHP: final public class method declaration |
+| `fpubs` | PHP: final public static class method declaration |
+| `fun` | PHP: function definition |
+| `getter` | PHP: getter |
+| `globals` | PHP: $GLOBALS['...'] |
+| `i` | PHP: interface definition |
+| `if` | PHP: if statement |
+| `if?` | PHP: $... = ( ... ) ? ... : ... |
+| `ifelse` | PHP: if-else statement |
+| `incl` | PHP: include expression |
+| `incl1` | PHP: include_once expression |
+| `m` | PHP: class method declaration |
+| `n` | PHP: namespace definition |
+| `p` | PHP: class property declaration |
+| `pr` | PHP: Print human readable information about a variable |
+| `pre` | PHP: Print human readable information about a variable and exit |
+| `pri` | PHP: private class method declaration |
+| `pro` | PHP: protected class method declaration |
+| `pub` | PHP: public class method declaration |
+| `pubs` | PHP: public static class method declaration |
+| `r` | PHP: return statement |
+| `req` | PHP: require expression |
+| `req1` | PHP: require_once expression |
+| `ret` | PHP: return |
+| `ret0` | PHP: return false statement |
+| `ret1` | PHP: return true statement |
+| `rt` | PHP: return $this statement |
+| `rv` | PHP: return variable statement |
+| `self` | PHP: self:: |
+| `setter` | PHP: setter |
+| `switch` | PHP: switch ... |
+| `t` | PHP: trait definition |
+| `this` | PHP: $this-&gt; |
+| `this` | PHP: $this-&gt; |
+| `throw` | PHP: throw exception statement |
+| `trait` | PHP: trait definition |
+| `try` | PHP: Wrap in try { ... } catch (...) { ... } |
+| `use` | PHP: namespace use declaration |
+| `vd` | PHP: Dump information about a variable |
+| `vde` | PHP: Dump information about a variable and exit |
+| `while` | PHP: while ... |
 
-## Scope: phtml
+## Scope: text.html.basic
 
 | Trigger | Description |
 | ------- | ----------- |
-| `echo` | &lt;?php echo ... ?&gt; |
-| `echoh` | &lt;?php echo htmlentities(...) ?&gt; |
-| `else` | &lt;?php else: ?&gt; |
-| `ethis` | &lt;?php echo $this-&gt;... ?&gt; |
-| `foreach` | &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
-| `if` | &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
-| `ifelse` | &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
-| `php` | &lt;?php ... ?&gt; |
-| `this` | &lt;?php $this-&gt;... ?&gt; |
+| `echo` | PHP (HTML): &lt;?php echo ... ?&gt; |
+| `echoh` | PHP (HTML): &lt;?php echo htmlentities(...) ?&gt; |
+| `else` | PHP (HTML): &lt;?php else: ?&gt; |
+| `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
+| `foreach` | PHP (HTML): &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
+| `if` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
+| `ifelse` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
+| `php` | PHP (HTML): &lt;?php ... ?&gt; |
+| `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
 
