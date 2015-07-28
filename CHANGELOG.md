@@ -1,5 +1,9 @@
 # sublime-php-snippets changelog
 
+## 0.11.0 (upcoming)
+
+* Now installable via Package Control
+
 ## 0.10.0
 
 * PHP source snippets descriptions are prefixed with "PHP: "
@@ -11,7 +15,7 @@
 
 ## 0.9.0
 
-* `phtml` snippets now use php short tags by default i.e. `<?= $var ?>` vs `<?php echo $var ?>`. See the readme [configuration section](https://github.com/gerardroche/sublime-php-snippets#configuration) for more details on how to configure the old behaviour. 
+* `phtml` snippets now use php short tags by default i.e. `<?= $var ?>` vs `<?php echo $var ?>`. See the readme [configuration section](https://github.com/gerardroche/sublime-php-snippets#configuration) for more details on how to configure the old behaviour.
 
 ## 0.8.0
 

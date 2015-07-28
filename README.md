@@ -15,11 +15,11 @@ sublime-php-snippets plugin for Sublime Text. Provides decent PHP snippets.
 
 # Features
 
-* PHP [~5.6][semver]
-* [PSR][php-fig] compliant
+* PHP [~5.6](http://semver.org)
+* [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 
-See the [documentation] for a list of the snippets.
+See the [documentation](DOCUMENTATION.md) for a list of the snippets.
 
 ## Key Bindings
 
@@ -27,13 +27,22 @@ See the [documentation] for a list of the snippets.
 |------|---------|-------|-------------|
 | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
 
-To enable [tab-completions][tab-completed-completions] set `"tab_completion": true` in `Preferences > Settings - User`.
+To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions) set `"tab_completion": true` in `Preferences > Settings - User`.
 
 ## Installation
 
+### Package Control installation
+
+1. Install [Package Control](https://packagecontrol.io)
+2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac.
+3. Type `install package` and hit Return. A list of available packages will be displayed.
+4. Type `php snippets` and hit Return. The package will be downloaded to the appropriate directory.
+5. Restart Sublime Text to complete installation. The features listed above should now be available.
+
 ### Manual installation
 
-1. Download or clone this repository to a directory "php-snippets" in the Sublime Text Packages directory for your platform:
+1. Close Sublime Text
+2. Download or clone this repository to a directory "php-snippets" in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
         - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
@@ -42,7 +51,6 @@ To enable [tab-completions][tab-completed-completions] set `"tab_completion": tr
         - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-2/Packages/php-snippets`
         - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-snippets`
         - Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 2/Packages/php-snippets`
-2. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ## Configuration
 
@@ -98,26 +106,12 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Complementary Plugins
 
-* [php-completions]
-* [php-grammar]
-* [php-snippets]
-* [phpunit-completions]
-* [phpunit-snippets]
-* [phpunit]
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
+* [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 ## License
 
-sublime-php-snippets is released under the [BSD 3-Clause License][license].
-
-[documentation]: DOCUMENTATION.md
-[license]: LICENSE
-[Package Control]: https://packagecontrol.io
-[php-completions]: https://github.com/gerardroche/sublime-phpck
-[php-fig]: http://www.php-fig.org
-[php-grammar]: https://github.com/gerardroche/sublime-php-grammar
-[php-snippets]: https://github.com/gerardroche/sublime-php-snippets
-[phpunit-completions]: https://github.com/gerardroche/sublime-phpunitck
-[phpunit-snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
-[phpunit]: https://github.com/gerardroche/sublime-phpunit
-[semver]: http://semver.org
-[tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions
+sublime-php-snippets is released under the [BSD 3-Clause License](LICENSE).
