@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<?${TM_PHP_OPEN_TAG:php} endwhile ?>
+]]></content>
+    <tabTrigger>endwhile</tabTrigger>
+    <scope>text.html.basic - source</scope>
+    <description>PHP (HTML): endwhile</description>
+</snippet>

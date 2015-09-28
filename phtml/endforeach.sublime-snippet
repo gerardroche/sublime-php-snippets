@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<?${TM_PHP_OPEN_TAG:php} endforeach ?>
+]]></content>
+    <tabTrigger>endforeach</tabTrigger>
+    <scope>text.html.basic - source</scope>
+    <description>PHP (HTML): endforeach</description>
+</snippet>
