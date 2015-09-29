@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<?${TM_PHP_OPEN_TAG:php} foreach (\$${1:collection} as \$${2:key} => \$${3:value}): ?>
+	$0
+<?${TM_PHP_OPEN_TAG:php} endforeach ?>
+]]></content>
+    <tabTrigger>foreachk</tabTrigger>
+    <scope>text.html.basic - source</scope>
+    <description>PHP (HTML): foreach {key} {value} statement</description>
+</snippet>
