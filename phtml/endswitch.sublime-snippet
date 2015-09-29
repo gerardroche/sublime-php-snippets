@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<?${TM_PHP_OPEN_TAG:php} endswitch ?>
+]]></content>
+    <tabTrigger>endswitch</tabTrigger>
+    <scope>text.html.basic - source</scope>
+    <description>PHP (HTML): endswitch statement</description>
+</snippet>
