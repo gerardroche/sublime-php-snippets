@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<?${TM_PHP_OPEN_TAG:php} endfor ?>
+]]></content>
+    <tabTrigger>endfor</tabTrigger>
+    <scope>text.html.basic - source</scope>
+    <description>PHP (HTML): endfor statement</description>
+</snippet>
