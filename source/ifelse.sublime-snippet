@@ -1,11 +1,10 @@
 <snippet>
     <content><![CDATA[
-if (${1:expression}) {
-	${2:// code...}
+if (${1:expr}) {
+	$2
 } else {
-	${3:// code...}
+	$0
 }
-$0
 ]]></content>
     <tabTrigger>ifelse</tabTrigger>
     <scopeName>language_construct</scopeName>
