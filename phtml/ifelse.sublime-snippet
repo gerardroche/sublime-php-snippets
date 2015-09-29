@@ -8,5 +8,5 @@
 ]]></content>
     <tabTrigger>ifelse</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt;</description>
+    <description>PHP (HTML): if-else statement</description>
 </snippet>

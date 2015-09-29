@@ -7,5 +7,5 @@ foreach (\$${1:collection} as \$${2:value}) {
     <tabTrigger>foreach</tabTrigger>
     <scopeName>language_construct</scopeName>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>,
-    <description>PHP: foreach value statement</description>
+    <description>PHP: foreach {value} statement</description>
 </snippet>

@@ -7,5 +7,5 @@ while (${1:condition}) {
     <scopeName>language_construct</scopeName>
     <tabTrigger>while</tabTrigger>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>PHP: while ...</description>
+    <description>PHP: while statement</description>
 </snippet>

@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>else</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): &lt;?php else: ?&gt;</description>
+    <description>PHP (HTML): else statement</description>
 </snippet>

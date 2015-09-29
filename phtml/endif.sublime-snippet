@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endif</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): endif</description>
+    <description>PHP (HTML): endif statement</description>
 </snippet>
