@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<?${TM_PHP_OPEN_TAG:php} if (${1:condition}): ?>
+<?${TM_PHP_OPEN_TAG:php} if (${1:expr}): ?>
 	$2
 <?${TM_PHP_OPEN_TAG:php} else: ?>
 	$0

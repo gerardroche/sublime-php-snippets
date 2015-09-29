@@ -2,7 +2,7 @@
     <content><![CDATA[
 do {
 	$0
-} while (${1:condition});
+} while (${1:expr});
 ]]></content>
     <tabTrigger>do</tabTrigger>
     <scopeName>language_construct</scopeName>

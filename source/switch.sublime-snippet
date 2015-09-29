@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-switch (${1:expression}) {
-	case ${2:expression}:
+switch (${1:expr}) {
+	case ${2:expr}:
 		${3:// code...}
 		break;
 	$0

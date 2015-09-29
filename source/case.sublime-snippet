@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-case ${1:expression}:
+case ${1:expr}:
 	$0
 	break;
 ]]></content>

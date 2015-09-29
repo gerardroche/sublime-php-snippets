@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-elseif (${1:expression}) {
+elseif (${1:expr}) {
 	$0
 }
 ]]></content>

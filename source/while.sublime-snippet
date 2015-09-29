@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-while (${1:condition}) {
+while (${1:expr}) {
     $0
 }
 ]]></content>
