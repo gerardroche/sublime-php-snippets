@@ -1,5 +1,20 @@
 # sublime-php-snippets changelog
 
+## 0.12.0
+
+* Added: `else` statement
+* Added: `reqd` - require dirname statement
+* Added: phtml `endfor` statement
+* Added: phtml `endforeach` statement
+* Added: phtml `endif` statement
+* Added: phtml `endswitch` statement
+* Added: phtml `endwhile` statement
+* Added: phtml `foreachk` - foreach key value statment
+* Improved descriptions for some snippets
+* Improved field names for some snippets
+* Changed: removed comments from "ifelse" statement fields
+* Changed: phtml `foreach` now only contains collection value field. Use `foreachk` for key and value fields.
+
 ## 0.11.0
 
 * Now installable via Package Control
