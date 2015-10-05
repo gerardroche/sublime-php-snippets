@@ -15,7 +15,7 @@
 | `am` | PHP: array map a closure |
 | `array` | PHP: Initialise a variable with an array |
 | `c` | PHP: class declaration |
-| `case` | PHP: case ... |
+| `case` | PHP: case statement |
 | `class` | PHP: class declaration |
 | `closure` | PHP: Closure declaration |
 | `con` | PHP: class constructor definition |
@@ -30,17 +30,25 @@
 | `doc_v` | PHP: Documented class variable |
 | `echo` | PHP (HTML): &lt;?php echo ... ?&gt; |
 | `echo` | PHP: echo '...' |
-| `echoh` | PHP (HTML): &lt;?php echo htmlentities(...) ?&gt; |
-| `else` | PHP (HTML): &lt;?php else: ?&gt; |
+| `echoh` | PHP (HTML): echo htmlentities(...) |
+| `else` | PHP (HTML): else statement |
+| `else` | PHP: else statement |
+| `elseif` | PHP (HTML): elseif statement |
 | `elseif` | PHP: elseif statement |
+| `endfor` | PHP (HTML): endfor statement |
+| `endforeach` | PHP (HTML): endforeach statement |
+| `endif` | PHP (HTML): endif statement |
+| `endswitch` | PHP (HTML): endswitch statement |
+| `endwhile` | PHP (HTML): endwhile statement |
 | `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
 | `ethis` | PHP: echo $this-&gt; |
 | `f` | PHP: function definition |
 | `flatten` | PHP: Flatten an array |
 | `for` | PHP: for statement |
-| `foreach` | PHP (HTML): &lt;?php foreach (...) ... &lt;?php endforeach ?&gt; |
-| `foreach` | PHP: foreach value statement |
-| `foreachk` | PHP: foreach key-value statement |
+| `foreach` | PHP (HTML): foreach {value} statement |
+| `foreach` | PHP: foreach {value} statement |
+| `foreachk` | PHP (HTML): foreach {key} {value} statement |
+| `foreachk` | PHP: foreach {key} {value} statement |
 | `fpri` | PHP: final private class method declaration |
 | `fpris` | PHP: final private static class method declaration |
 | `fpro` | PHP: final protected class method declaration |
@@ -50,10 +58,10 @@
 | `getter` | PHP: getter |
 | `globals` | PHP: $GLOBALS['...'] |
 | `i` | PHP: interface definition |
-| `if` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php endif ?&gt; |
+| `if` | PHP (HTML): if statement |
 | `if` | PHP: if statement |
 | `if?` | PHP: $... = ( ... ) ? ... : ... |
-| `ifelse` | PHP (HTML): &lt;?php if (...) ?&gt; ... &lt;?php else ?&gt; ... &lt;?php endif ?&gt; |
+| `ifelse` | PHP (HTML): if-else statement |
 | `ifelse` | PHP: if-else statement |
 | `incl` | PHP: include expression |
 | `incl1` | PHP: include_once expression |
@@ -70,6 +78,7 @@
 | `r` | PHP: return statement |
 | `req` | PHP: require expression |
 | `req1` | PHP: require_once expression |
+| `reqd` | PHP: require dirname expression |
 | `ret` | PHP: return |
 | `ret0` | PHP: return false statement |
 | `ret1` | PHP: return true statement |
@@ -77,8 +86,8 @@
 | `rv` | PHP: return variable statement |
 | `self` | PHP: self:: |
 | `setter` | PHP: setter |
-| `switch` | PHP: switch ... |
-| `t` | PHP: trait definition |
+| `switch` | PHP: switch statement |
+| `t` | PHP: $this-&gt; |
 | `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
 | `this` | PHP: $this-&gt; |
 | `throw` | PHP: throw exception statement |
@@ -87,4 +96,4 @@
 | `use` | PHP: namespace use declaration |
 | `vd` | PHP: Dump information about a variable |
 | `vde` | PHP: Dump information about a variable and exit |
-| `while` | PHP: while ... |
+| `while` | PHP: while statement |

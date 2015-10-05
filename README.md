@@ -1,4 +1,4 @@
-# sublime-php-snippets
+# gerardroche/sublime-php-snippets
 
 sublime-php-snippets plugin for Sublime Text. Provides decent PHP snippets.
 
@@ -108,10 +108,10 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
 * [PHP Completions](https://github.com/gerardroche/sublime-phpck)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
 * [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions)
 
 ## License
 
-sublime-php-snippets is released under the [BSD 3-Clause License](LICENSE).
+Released under the [BSD 3-Clause License](LICENSE).
