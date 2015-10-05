@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-return true;$0
+return true;
 ]]></content>
     <tabTrigger>ret1</tabTrigger>
     <scopeName>language_construct</scopeName>
