@@ -11,7 +11,9 @@
 | `$_` | PHP: SERVER['...'] |
 | `$_` | PHP: SESSION['...'] |
 | `<?` | PHP: Script start tag |
+| `<?=` | PHP: Script short echo tag |
 | `/**` | PHP: Start Docblock |
+| `?=` | PHP: Script short echo tag |
 | `am` | PHP: array map a closure |
 | `array` | PHP: Initialise a variable with an array |
 | `c` | PHP: class declaration |
@@ -42,6 +44,7 @@
 | `endwhile` | PHP (HTML): endwhile statement |
 | `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
 | `ethis` | PHP: echo $this-&gt; |
+| `ev` | PHP: echo '...' |
 | `f` | PHP: function definition |
 | `flatten` | PHP: Flatten an array |
 | `for` | PHP: for statement |
@@ -57,14 +60,17 @@
 | `fun` | PHP: function definition |
 | `getter` | PHP: getter |
 | `globals` | PHP: $GLOBALS['...'] |
+| `gm` | PHP: getter |
 | `i` | PHP: interface definition |
 | `if` | PHP (HTML): if statement |
 | `if` | PHP: if statement |
 | `if?` | PHP: $... = ( ... ) ? ... : ... |
 | `ifelse` | PHP (HTML): if-else statement |
 | `ifelse` | PHP: if-else statement |
-| `incl` | PHP: include expression |
-| `incl1` | PHP: include_once expression |
+| `inc` | PHP: include expression |
+| `inc1` | PHP: include_once expression |
+| `is` | PHP: $... = ( ... ) ? ... : ... |
+| `kv` | PHP: Array key value |
 | `m` | PHP: class method declaration |
 | `n` | PHP: namespace definition |
 | `p` | PHP: class property declaration |
@@ -82,10 +88,13 @@
 | `ret` | PHP: return |
 | `ret0` | PHP: return false statement |
 | `ret1` | PHP: return true statement |
+| `retf` | PHP: return false statement |
+| `rett` | PHP: return true statement |
 | `rt` | PHP: return $this statement |
 | `rv` | PHP: return variable statement |
 | `self` | PHP: self:: |
 | `setter` | PHP: setter |
+| `sm` | PHP: setter |
 | `switch` | PHP: switch statement |
 | `t` | PHP: $this-&gt; |
 | `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
