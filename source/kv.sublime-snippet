@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+'${1}' => '${2}'
+]]></content>
+    <tabTrigger>kv</tabTrigger>
+    <scope>source.php meta.array.php</scope>
+    <description>PHP: Array key value</description>
+</snippet>
