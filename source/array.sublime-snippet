@@ -3,6 +3,6 @@
 \$${1:name} = FOO array('${2}' => ${3});
 ]]></content>
     <tabTrigger>array</tabTrigger>
-    <scope>source.php - comment - variable</scope>
+    <scope>source.php - comment - variable - entity.name</scope>
     <description>PHP: Initialise a variable with an array</description>
 </snippet>
