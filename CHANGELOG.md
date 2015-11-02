@@ -1,4 +1,4 @@
-# sublime-php-snippets changelog
+# gerardroche/sublime-php-snippets changelog
 
 ## 0.13.0
 

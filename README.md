@@ -1,6 +1,8 @@
 # gerardroche/sublime-php-snippets
 
-sublime-php-snippets plugin for Sublime Text. Provides decent PHP snippets.
+A plugin for Sublime Text.
+
+Provides decent PHP snippets.
 
 ## Overview
 
@@ -33,16 +35,18 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 ### Package Control installation
 
-1. Install [Package Control](https://packagecontrol.io)
+The preferred method of installation is via Package Control.
+
+1. Install [Package Control](https://packagecontrol.io).
 2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac.
 3. Type `install package` and hit Return. A list of available packages will be displayed.
-4. Type `php snippets` and hit Return. The package will be downloaded to the appropriate directory.
+4. Type `php-snippets` and hit Return. The package will be downloaded to the appropriate directory.
 5. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ### Manual installation
 
-1. Close Sublime Text
-2. Download or clone this repository to a directory "php-snippets" in the Sublime Text Packages directory for your platform:
+1. Close Sublime Text.
+2. Download or clone this repository to a directory named `php-snippets` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
         - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
@@ -51,6 +55,7 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
         - Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-2/Packages/php-snippets`
         - OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-snippets`
         - Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 2/Packages/php-snippets`
+3. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ## Configuration
 
@@ -98,7 +103,7 @@ Add **`php-snippets-phtml-settings.tmPreferences`** to the User packages directo
 
 ## Contributing
 
-Issue reports and pull requests are always welcome.
+Your issue reports and pull requests are always welcome.
 
 ## Changelog
 
