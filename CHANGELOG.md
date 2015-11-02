@@ -1,8 +1,11 @@
 # gerardroche/sublime-php-snippets changelog
 
+## 0.14.0-dev
+
+* Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
+
 ## 0.13.0
 
-* Fixed: removed trailing newline in namespace snippet
 * Added: `rett` - return true statement
 * Added: `retf` - return false statement
 * Added: `sm` - setter method
@@ -11,6 +14,7 @@
 * Added `?=` and `<?=` - short syntax phtml echo statements
 * Changed: `t` now triggers `$this->`, previously is was a trait snippet
 * Changed: `incl` and `incl1` triggers are now `inc` and `inc1`
+* Fixed: removed trailing newline in namespace snippet
 * Other minor fixes
 
 ## 0.12.0
