@@ -1,8 +1,12 @@
 # gerardroche/sublime-php-snippets changelog
 
-## 0.14.0-dev
+## 0.14.0
 
+* Added: "ev" echo variable snippet
+* Added: "kv" array key value snippet
 * Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
+* Fixed: array snippet no longer triggers in an entity.name scope
+* Fixed: PHP script tag snippet "<?|" now triggers in a text.plain scope
 
 ## 0.13.0
 
