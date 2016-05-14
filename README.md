@@ -4,6 +4,8 @@ A plugin for Sublime Text.
 
 Provides decent PHP snippets.
 
+Also try [PHP Grammar](https://packagecontrol.io/packages/php-grammar), [PHP Completions](https://packagecontrol.io/packages/PHP%20Completions%20Kit), and [PHPUnit](https://github.com/gerardroche/sublime-phpunit).
+
 ## Overview
 
 * [Features](#features)
@@ -12,7 +14,6 @@ Provides decent PHP snippets.
 * [Configuration](#configuration)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
-* [Complementary Plugins](#complementary-plugins)
 * [License](#license)
 
 # Features
@@ -108,14 +109,6 @@ Your issue reports and pull requests are always welcome.
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
-
-## Complementary Plugins
-
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions)
 
 ## License
 
