@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-print_r(${1}); exit;
+print_r(\$${1}); exit;
 ]]></content>
     <tabTrigger>pre</tabTrigger>
     <scopeName>function</scopeName>

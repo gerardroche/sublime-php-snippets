@@ -1,5 +1,9 @@
 # gerardroche/sublime-php-snippets changelog
 
+## Next Release
+
+* Changed: "pre" snippet now prefills a dollar character prefix
+
 ## 0.14.0
 
 * Added: "ev" echo variable snippet
