@@ -1,6 +1,6 @@
 # gerardroche/sublime-php-snippets changelog
 
-## Next Release
+## 0.15.0
 
 * Changed: "pre" snippet now prefills a dollar character prefix
 
