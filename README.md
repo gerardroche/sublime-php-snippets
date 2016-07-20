@@ -9,7 +9,7 @@
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-php-snippets.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime-php-snippets/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/php-snippets.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/php-snippets)
 
-PHP snippets for sublime text.
+PHP snippets for Sublime Text.
 
 Works best with [PHP Grammar], [PHP Completions], and [PHPUnit].
 
