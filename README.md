@@ -1,13 +1,13 @@
 # gerardroche/sublime-php-snippets
 
-[![Author](http://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
+[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-php-snippets)
 [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-php-snippets.svg?style=flat)](https://github.com/gerardroche/sublime-php-snippets/stargazers)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-php-snippets/master/LICENSE)
 
 [![Sublime version](https://img.shields.io/badge/sublime-v2|v3-lightgrey.svg?style=flat)](http://sublimetext.com)
-[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-php-snippets.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime-php-snippets/tags)
-[![Downloads](https://img.shields.io/packagecontrol/dt/php-snippets.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/php-snippets)
+[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-php-snippets.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-php-snippets/tags)
+[![Downloads](https://img.shields.io/packagecontrol/dt/php-snippets.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/php-snippets)
 
 PHP snippets for Sublime Text.
 
