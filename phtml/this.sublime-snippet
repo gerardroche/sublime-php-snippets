@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>this</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): &lt;?php $this-&gt;... ?&gt;</description>
+    <description>PHTML: &lt;?php $this-&gt;... ?&gt;</description>
 </snippet>

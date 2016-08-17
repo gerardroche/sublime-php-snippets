@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endwhile</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): endwhile statement</description>
+    <description>PHTML: endwhile statement</description>
 </snippet>

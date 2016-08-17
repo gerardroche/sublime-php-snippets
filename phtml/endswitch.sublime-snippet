@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endswitch</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): endswitch statement</description>
+    <description>PHTML: endswitch statement</description>
 </snippet>

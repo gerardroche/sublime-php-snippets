@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>echo</tabTrigger>
     <scope>text.html.basic - source.php</scope>
-    <description>PHP (HTML): &lt;?php echo ... ?&gt;</description>
+    <description>PHTML: &lt;?php echo ... ?&gt;</description>
 </snippet>

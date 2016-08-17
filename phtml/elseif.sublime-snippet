@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>elseif</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHP (HTML): elseif statement</description>
+    <description>PHTML: elseif statement</description>
 </snippet>
