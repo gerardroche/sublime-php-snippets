@@ -1,5 +1,11 @@
 # gerardroche/sublime-php-snippets changelog
 
+## 0.16.0
+
+* Added: Several aliases
+* Changed: Improved descriptions
+* Changed: Improved field names
+
 ## 0.15.0
 
 * Changed: "pre" snippet now prefills a dollar character prefix
