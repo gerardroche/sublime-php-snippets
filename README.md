@@ -23,13 +23,15 @@ PHP snippets for Sublime Text.
 * [Changelog](#changelog)
 * [License](#license)
 
-# Features
+## Features
 
 * PHP [~5.6](http://semver.org)
 * [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 
-See the [documentation](DOCUMENTATION.md) for a list of the snippets.
+## Snippets
+
+See [SNIPPETS.md](SNIPPETS.md).
 
 ## Key Bindings
 

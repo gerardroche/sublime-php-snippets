@@ -30,28 +30,28 @@
 | `doc_i` | PHP: Documented interface |
 | `doc_s` | PHP: Documented function signature |
 | `doc_v` | PHP: Documented class variable |
-| `echo` | PHP (HTML): &lt;?php echo ... ?&gt; |
 | `echo` | PHP: echo '...' |
-| `echoh` | PHP (HTML): echo htmlentities(...) |
-| `else` | PHP (HTML): else statement |
+| `echo` | PHTML: &lt;?php echo ... ?&gt; |
+| `echoh` | PHTML: echo htmlentities(...) |
 | `else` | PHP: else statement |
-| `elseif` | PHP (HTML): elseif statement |
+| `else` | PHTML: else statement |
 | `elseif` | PHP: elseif statement |
-| `endfor` | PHP (HTML): endfor statement |
-| `endforeach` | PHP (HTML): endforeach statement |
-| `endif` | PHP (HTML): endif statement |
-| `endswitch` | PHP (HTML): endswitch statement |
-| `endwhile` | PHP (HTML): endwhile statement |
-| `ethis` | PHP (HTML): &lt;?php echo $this-&gt;... ?&gt; |
+| `elseif` | PHTML: elseif statement |
+| `endfor` | PHTML: endfor statement |
+| `endforeach` | PHTML: endforeach statement |
+| `endif` | PHTML: endif statement |
+| `endswitch` | PHTML: endswitch statement |
+| `endwhile` | PHTML: endwhile statement |
 | `ethis` | PHP: echo $this-&gt; |
+| `ethis` | PHTML: &lt;?php echo $this-&gt;... ?&gt; |
 | `ev` | PHP: echo '...' |
 | `f` | PHP: function definition |
 | `flatten` | PHP: Flatten an array |
 | `for` | PHP: for statement |
-| `foreach` | PHP (HTML): foreach {value} statement |
 | `foreach` | PHP: foreach {value} statement |
-| `foreachk` | PHP (HTML): foreach {key} {value} statement |
+| `foreach` | PHTML: foreach {value} statement |
 | `foreachk` | PHP: foreach {key} {value} statement |
+| `foreachk` | PHTML: foreach {key} {value} statement |
 | `fpri` | PHP: final private class method declaration |
 | `fpris` | PHP: final private static class method declaration |
 | `fpro` | PHP: final protected class method declaration |
@@ -62,19 +62,20 @@
 | `globals` | PHP: $GLOBALS['...'] |
 | `gm` | PHP: getter |
 | `i` | PHP: interface definition |
-| `if` | PHP (HTML): if statement |
 | `if` | PHP: if statement |
+| `if` | PHTML: if statement |
 | `if?` | PHP: $... = ( ... ) ? ... : ... |
-| `ifelse` | PHP (HTML): if-else statement |
 | `ifelse` | PHP: if-else statement |
+| `ifelse` | PHTML: if-else statement |
 | `inc` | PHP: include expression |
 | `inc1` | PHP: include_once expression |
 | `is` | PHP: $... = ( ... ) ? ... : ... |
 | `kv` | PHP: Array key value |
 | `m` | PHP: class method declaration |
 | `n` | PHP: namespace definition |
+| `namespace` | PHP: namespace definition |
 | `p` | PHP: class property declaration |
-| `php` | PHP (HTML): &lt;?php ... ?&gt; |
+| `php` | PHTML: &lt;?php ... ?&gt; |
 | `pr` | PHP: Print human readable information about a variable |
 | `pre` | PHP: Print human readable information about a variable and exit |
 | `pri` | PHP: private class method declaration |
@@ -97,8 +98,8 @@
 | `sm` | PHP: setter |
 | `switch` | PHP: switch statement |
 | `t` | PHP: $this-&gt; |
-| `this` | PHP (HTML): &lt;?php $this-&gt;... ?&gt; |
 | `this` | PHP: $this-&gt; |
+| `this` | PHTML: &lt;?php $this-&gt;... ?&gt; |
 | `throw` | PHP: throw exception statement |
 | `trait` | PHP: trait definition |
 | `try` | PHP: Wrap in try { ... } catch (...) { ... } |
