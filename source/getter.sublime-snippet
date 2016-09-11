@@ -9,7 +9,7 @@ public function get${1/(.*)/\u$1/}()
 }
 ]]></content>
     <tabTrigger>getter</tabTrigger>
-    <scopeName>language_construct</scopeName>
+    <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>PHP: getter</description>
 </snippet>

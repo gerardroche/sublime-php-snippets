@@ -11,8 +11,8 @@ trait ${2:Name}
     }
 }
 ]]></content>
-    <scopeName>language_construct</scopeName>
     <tabTrigger>trait</tabTrigger>
+    <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>PHP: trait definition</description>
 </snippet>

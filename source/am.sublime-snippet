@@ -5,7 +5,7 @@ ${1/.+/\$/}${1:name}${1/.+/ = /}array_map(function (\$${2:value}) {
 }, \$${3:array})${1/.+/;/}
 ]]></content>
     <tabTrigger>am</tabTrigger>
-    <scopeName>function</scopeName>
+    <scopeAliases>function</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other</scope>
     <description>PHP: array map a closure</description>
 </snippet>

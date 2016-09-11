@@ -6,7 +6,7 @@ ${1:final }class ${2:Name}${3/.+/ extends /}${3:Name}${4/.+/ implements /}${4:Na
 }
 ]]></content>
     <tabTrigger>c</tabTrigger>
-    <scopeName>language_construct</scopeName>
+    <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
     <description>PHP: class declaration</description>
  </snippet>
