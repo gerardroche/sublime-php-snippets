@@ -3,6 +3,7 @@
 namespace ${1:Qualified\Name};
 ${0}
 ]]></content>
+    <tabTriggerAliases>n,namespace</tabTriggerAliases>
     <tabTrigger>n</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>

@@ -2,15 +2,22 @@
 
 DO NOT MODIFY. THIS IS COMPILED FROM AN ALIAS.
 
-(see retf.sublime-snippet)
+(see n.sublime-snippet)
+
+--><!--
+
+DO NOT MODIFY. THIS IS COMPILED FROM AN ALIAS.
+
+(see n.sublime-snippet)
 
 --><snippet>
     <content><![CDATA[
-return false;
+namespace ${1:Qualified\Name};
+${0}
 ]]></content>
-    <tabTriggerAliases>retf,ret0</tabTriggerAliases>
-    <tabTrigger>ret0</tabTrigger>
+    <tabTriggerAliases>n,namespace</tabTriggerAliases>
+    <tabTrigger>namespace</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
-    <description>PHP: return false statement</description>
+    <description>PHP: namespace definition</description>
 </snippet>

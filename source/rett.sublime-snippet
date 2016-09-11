@@ -2,6 +2,7 @@
     <content><![CDATA[
 return true;
 ]]></content>
+    <tabTriggerAliases>rett,ret1</tabTriggerAliases>
     <tabTrigger>rett</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>

@@ -1,7 +1,14 @@
-<snippet>
+<!--
+
+DO NOT MODIFY. THIS IS COMPILED FROM AN ALIAS.
+
+(see rett.sublime-snippet)
+
+--><snippet>
     <content><![CDATA[
 return true;
 ]]></content>
+    <tabTriggerAliases>rett,ret1</tabTriggerAliases>
     <tabTrigger>ret1</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
