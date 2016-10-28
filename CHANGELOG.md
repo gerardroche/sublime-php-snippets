@@ -1,4 +1,9 @@
-# gerardroche/sublime-php-snippets changelog
+# PHP-SNIPPETS CHANGELOG
+
+## 0.17.0
+
+* Fixed: several issues with snippets scopes in new builds of ST
+* Added: class snippet for plain text context
 
 ## 0.16.0
 

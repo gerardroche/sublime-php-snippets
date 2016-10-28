@@ -18,6 +18,6 @@ ${0}
     <tabTriggerAliases>n,namespace</tabTriggerAliases>
     <tabTrigger>namespace</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
-    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other</scope>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other</scope>
     <description>PHP: namespace definition</description>
 </snippet>
