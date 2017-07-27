@@ -1,13 +1,10 @@
 <snippet>
     <content><![CDATA[
-/**
- * ${1:summary}
- */
-trait ${2:Name}
+${1/.+/\/**\n * /}${1:summary}${1/.+/\n *\/\n//}trait ${2:Name}
 {
-    ${3:public }function ${4:name}(${5:params...})
+    ${3/.+/\/**\n     * /}${3:summary}${3/.+/\n     *\/\n    //}${4:public }function ${5:name}(${6})
     {
-        ${6:// code...}
+        $0
     }
 }
 ]]></content>
