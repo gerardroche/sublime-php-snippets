@@ -1,5 +1,9 @@
 # PHP-SNIPPETS CHANGELOG
 
+## 0.18.0
+
+* Changed: `trait` compliant with `class` snippet
+
 ## 0.17.0
 
 * Fixed: several issues with snippets scopes in new builds of ST
