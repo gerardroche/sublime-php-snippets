@@ -13,7 +13,6 @@ PHP snippets for Sublime Text.
 * [Usage](#usage)
 * [Configuration](#configuration)
 * [Contributing](#contributing)
-* [Changelog](#changelog)
 * [License](#license)
 
 ## INSTALLATION
@@ -198,10 +197,6 @@ Create a file **`php-snippets-phtml-settings.tmPreferences`** in your User packa
 ## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
-
-## CHANGELOG
-
-See [CHANGELOG.md](CHANGELOG.md).
 
 ## LICENSE
 
