@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$_SERVER['${1:variable}']
+_SERVER['${1:variable}']
 ]]></content>
-    <tabTrigger>$_</tabTrigger>
+    <tabTrigger>_</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: SERVER['...']</description>
 </snippet>
