@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$${1:name} = FOO array('${2}' => ${3});
+\$${1:name} = ['${2}' => ${3}];
 ]]></content>
     <tabTrigger>array</tabTrigger>
     <scope>source.php - comment - variable - entity.name</scope>
