@@ -2,7 +2,7 @@
     <content><![CDATA[
 _ENV['${1:variable}']
 ]]></content>
-    <tabTrigger>_</tabTrigger>
+    <tabTrigger>_E</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: ENV['...']</description>
 </snippet>

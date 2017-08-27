@@ -2,7 +2,7 @@
     <content><![CDATA[
 _SESSION['${1:variable}']
 ]]></content>
-    <tabTrigger>_</tabTrigger>
+    <tabTrigger>_SS</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: SESSION['...']</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 _POST['${1:variable}']
 ]]></content>
-    <tabTrigger>_</tabTrigger>
+    <tabTrigger>_P</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: POST['...']</description>
 </snippet>

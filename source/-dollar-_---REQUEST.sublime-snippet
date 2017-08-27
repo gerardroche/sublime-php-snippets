@@ -2,7 +2,7 @@
     <content><![CDATA[
 _REQUEST['${1:variable}']
 ]]></content>
-    <tabTrigger>_</tabTrigger>
+    <tabTrigger>_R</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: REQUEST['...']</description>
 </snippet>

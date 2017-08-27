@@ -2,7 +2,7 @@
     <content><![CDATA[
 _SERVER['${1:variable}']
 ]]></content>
-    <tabTrigger>_</tabTrigger>
+    <tabTrigger>_S</tabTrigger>
     <scope>source.php variable - comment</scope>
     <description>PHP: SERVER['...']</description>
 </snippet>
