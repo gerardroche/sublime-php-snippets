@@ -1,8 +1,8 @@
 # WHAT PHP SNIPPETS IS
 
-[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-php-snippets.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-php-snippets/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-php-snippets.svg?style=flat-square)](https://github.com/gerardroche/sublime-php-snippets/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/php-snippets.svg?style=flat-square)](https://packagecontrol.io/packages/php-snippets) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
-
 PHP snippets for Sublime Text.
+
+[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-php-snippets.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-php-snippets/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-php-snippets.svg?style=flat-square)](https://github.com/gerardroche/sublime-php-snippets/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/php-snippets.svg?style=flat-square)](https://packagecontrol.io/packages/php-snippets) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 * PSR compliant
 * Scoped to minimise auto-complete noise
@@ -36,7 +36,9 @@ The preferred method of installation is [Package Control](https://packagecontrol
 |------|---------|-------|-------------|
 | `Command+Space` | `Ctrl+Space` | `Alt+/` | Activate completions |
 
-Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions): `Preferences > Settings`
+Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions).
+
+`Preferences > Settings`
 
 ```json
 {
