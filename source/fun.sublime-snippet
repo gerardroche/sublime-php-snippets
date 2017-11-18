@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:public }function ${2:name}(${3:\$${4:value}${5:=''}})
-{
+function ${1:name}(${2:\$${3:value}${4:=''}})${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
 	$0
 }
 ]]></content>

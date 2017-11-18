@@ -1,7 +1,7 @@
 <snippet>
      <content><![CDATA[
-${1:final }class ${2:Name}${3/.+/ extends /}${3:Name}${4/.+/ implements /}${4:Name}
-{
+${1:final }class ${2:Name}${3/.+/ extends /}${3:Name}${4/.+/ implements /}${4:Name}${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
     ${0}
 }
 ]]></content>

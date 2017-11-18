@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:public} function __construct(${2:\$${3:param}${4: = ${5:null}}})
-{
+${1:public} function __construct(${2:\$${3:param}${4: = ${5:null}}})${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
 	${3/.+/$this->$0 = \$$0;/}$0
 }
 ]]></content>

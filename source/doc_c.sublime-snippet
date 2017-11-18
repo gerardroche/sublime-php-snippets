@@ -6,8 +6,8 @@
  * @package ${4:default}
  * @author ${Documented _AUTHOR:$TM_FULLNAME}
  */
-$1class $2
-{
+$1class $2${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
     $0
 }
 ]]></content>

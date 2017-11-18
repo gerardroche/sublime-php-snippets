@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-protected function ${1:name}(\$$2)
-{
+protected function ${1:name}(\$$2)${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
 	$0
 }
 ]]></content>

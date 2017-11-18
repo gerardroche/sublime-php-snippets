@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-public static function ${1:name}(\$$2)
-{
+public static function ${1:name}(\$$2)${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
 	$0
 }
 ]]></content>

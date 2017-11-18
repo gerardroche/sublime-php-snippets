@@ -6,8 +6,8 @@
  * @return ${5:void}
  * @author ${Documented _AUTHOR:$TM_FULLNAME}$6
  */
-$1function $2($3)
-{
+$1function $2($3)${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
     $0
 }
 ]]></content>

@@ -9,12 +9,61 @@
 	<dict>
 		<key>shellVariables</key>
 		<array>
+
+			<!--
+
+				If you prefer PHTML echo related statement snippets to complete
+				in long form, example:
+
+					<?php echo $var ?>
+
+				Then comment out the following setting.
+
+				The default is is to complete in the short form, example:
+
+					<?= $var ?>
+
+			-->
+
 			<dict>
 				<key>name</key>
 				<string>TM_PHP_OPEN_TAG_WITH_ECHO</string>
 				<key>value</key>
 				<string>=</string>
 			</dict>
+
+			<!--
+
+				If you prefer opening braces to be formatted on the same line,
+				for example:
+
+					function name() {
+
+					}
+
+				Then uncomment the following setting.
+
+				The default is to format braces on the next line, for example:
+
+					function name()
+					{
+
+					}
+
+				Note: This may not implemented by all snippets. Please open
+				issues and pull requests for those that are missing.
+
+			-->
+
+			<!--
+			<dict>
+				<key>name</key>
+				<string>TM_PHP_SNIPPET_OPENING_BRACE</string>
+				<key>value</key>
+				<string> {</string>
+			</dict>
+			-->
+
 		</array>
 	</dict>
 </dict>

@@ -7,14 +7,6 @@ PHP snippets for Sublime Text.
 * PSR compliant
 * Scoped to minimise auto-complete noise
 
-## Overview
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Configuration](#configuration)
-* [Contributing](#contributing)
-* [License](#license)
-
 ## INSTALLATION
 
 ### Package Control installation
@@ -23,12 +15,11 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ### Manual installation
 
-1. Close Sublime Text.
-2. Download or clone this repository to a directory named **`php-snippets`** in the Sublime Text Packages directory for your platform:
-    * Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
-    * OS X: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
-    * Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/php-snippets`
-3. Done!
+Close Sublime Text, then download or clone this repository to a directory named `php-snippets` in the Sublime Text Packages directory for your platform:
+
+* Linux: `git clone https://github.com/gerardroche/php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
+* OSX: `git clone https://github.com/gerardroche/php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
+* Windows: `git clone https://github.com/gerardroche/php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/php-snippets`
 
 ## USAGE
 
@@ -38,7 +29,7 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions).
 
-`Preferences > Settings`
+`Menu > Preferences > Settings`
 
 ```json
 {
@@ -156,21 +147,7 @@ Trigger | Description
 
 ## CONFIGURATION
 
-### Short echo tags vs long echo tags
-
-By default `echo` in snippets expand to a short php tag.
-
-```php
-<?= $var ?>
-```
-
-If you prefer long tags.
-
-```php
-<?php echo $var ?>
-```
-
-Create a file **`php-snippets-phtml-settings.tmPreferences`** in your User packages directory (`Menu > Preferences > Browse Packages...`).
+Create a file named `php-snippets-phtml-settings.tmPreferences` in your User packages directory (`Menu > Preferences > Browse Packages...`) with the following (modified to meet your needs):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -184,21 +161,67 @@ Create a file **`php-snippets-phtml-settings.tmPreferences`** in your User packa
     <dict>
         <key>shellVariables</key>
         <array>
+
+            <!--
+
+                If you prefer PHTML echo related statement snippets to complete
+                in long form, example:
+
+                    <?php echo $var ?>
+
+                Then comment out the following setting.
+
+                The default is is to complete in the short form, example:
+
+                    <?= $var ?>
+
+            -->
+
             <dict>
                 <key>name</key>
                 <string>TM_PHP_OPEN_TAG_WITH_ECHO</string>
                 <key>value</key>
-                <string>php echo</string>
+                <string>=</string>
             </dict>
+
+            <!--
+
+                If you prefer opening braces to be formatted on the same line,
+                for example:
+
+                    function name() {
+
+                    }
+
+                Then uncomment the following setting.
+
+                The default is to format braces on the next line, for example:
+
+                    function name()
+                    {
+
+                    }
+
+                Note: This may not implemented by all snippets. Please open
+                issues and pull requests for those that are missing.
+
+            -->
+
+            <!--
+            <dict>
+                <key>name</key>
+                <string>TM_PHP_SNIPPET_OPENING_BRACE</string>
+                <key>value</key>
+                <string> {</string>
+            </dict>
+            -->
+
         </array>
     </dict>
 </dict>
 </plist>
+
 ```
-
-## CONTRIBUTING
-
-Your issue reports and pull requests are always welcome.
 
 ## LICENSE
 

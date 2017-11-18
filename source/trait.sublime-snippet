@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1/.+/\/**\n * /}${1:summary}${1/.+/\n *\/\n//}trait ${2:Name}
-{
-    ${3/.+/\/**\n     * /}${3:summary}${3/.+/\n     *\/\n    //}${4:public }function ${5:name}(${6})
-    {
+${1/.+/\/**\n * /}${1:summary}${1/.+/\n *\/\n//}trait ${2:Name}${TM_PHP_SNIPPET_OPENING_BRACE:
+\{}
+    ${3/.+/\/**\n     * /}${3:summary}${3/.+/\n     *\/\n    //}${4:public }function ${5:name}(${6})${TM_PHP_SNIPPET_OPENING_BRACE:
+    \{}
         $0
     }
 }
