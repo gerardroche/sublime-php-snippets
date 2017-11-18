@@ -17,9 +17,9 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 Close Sublime Text, then download or clone this repository to a directory named `php-snippets` in the Sublime Text Packages directory for your platform:
 
-* Linux: `git clone https://github.com/gerardroche/php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
-* OSX: `git clone https://github.com/gerardroche/php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
-* Windows: `git clone https://github.com/gerardroche/php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/php-snippets`
+* Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/php-snippets`
+* OSX: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-snippets`
+* Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/php-snippets`
 
 ## USAGE
 
