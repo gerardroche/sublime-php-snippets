@@ -4,6 +4,6 @@ require '${1:filename}';
 ]]></content>
     <tabTrigger>req</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
-    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other</scope>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other - variable.parameter - meta.function.return-type</scope>
     <description>PHP: require expression</description>
 </snippet>
