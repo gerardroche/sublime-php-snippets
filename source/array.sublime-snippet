@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$${1:name} = ['${2}' => ${3}];
+\$${1:name} = [
+    '${2}' => ${3}
+];
 ]]></content>
     <tabTrigger>array</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
