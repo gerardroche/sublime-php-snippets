@@ -65,7 +65,7 @@ def plugin_loaded():
         tcf = os.path.join(dst, '.disabled-native-php-snippets')
 
         if not os.path.isfile(tcf):
-            print('php-snippets: disable native PHP snippets...')
+            print('PHPSnippets: disable native PHP snippets...')
 
             if not os.path.isdir(dst):
                 os.makedirs(dst)
@@ -80,4 +80,4 @@ def plugin_loaded():
                 f.write('')
 
     except Exception as e:
-        print('php-snippets: an error occured disabling native snippets ' + str(e))
+        print('PHPSnippets: an error occured disabling native snippets ' + str(e))
