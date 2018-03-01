@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-if (${1:expr}) {
+if (${1:expr})${TM_PHP_SNIPPET_OPENING_BRACE: \{}
 	$0
 }
 ]]></content>
