@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$_COOKIE['${1:variable}']
+]]></content>
+    <tabTrigger>_C</tabTrigger>
+    <scope>source.php - variable - comment</scope>
+    <description>PHP: COOKIE['...']</description>
+</snippet>
