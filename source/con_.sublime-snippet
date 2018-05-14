@@ -1,4 +1,12 @@
-<snippet>
+<!--
+
+This file is named con_.sublime-snippet rather than con.sublime-snippet because
+"con" is a reserved name on Windows. See:
+
+* https://github.com/gerardroche/sublime-php-snippets/issues/5
+* https://msdn.microsoft.com/en-us/library/aa365247%28VS.85%29.aspx
+
+--><snippet>
     <content><![CDATA[
 ${1:public} function __construct(${2:\$${3:param}${4: = ${5:null}}})${TM_PHP_SNIPPET_OPENING_BRACE:
 \{}
