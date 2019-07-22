@@ -15,11 +15,13 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ### Manual installation
 
-Close Sublime Text, then download or clone this repository to a directory named `PHPSnippets` in the Sublime Text Packages directory for your platform:
+Close Sublime Text, then download or clone this repository to a directory named **PHPSnippets** in the Sublime Text Packages directory for your platform:
 
-* Linux: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/PHPSnippets`
-* OSX: `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PHPSnippets`
-* Windows: `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/PHPSnippets`
+OS | Command
+-- | -----
+Linux | `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/.config/sublime-text-3/Packages/PHPSnippets`
+OSX | `git clone https://github.com/gerardroche/sublime-php-snippets.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PHPSnippets`
+Windows | `git clone https://github.com/gerardroche/sublime-php-snippets.git %APPDATA%\Sublime/ Text/ 3/Packages/PHPSnippets`
 
 ## USAGE
 
