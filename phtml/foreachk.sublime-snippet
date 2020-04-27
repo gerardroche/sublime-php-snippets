@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>foreachk</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: foreach {key} {value} statement</description>
+    <description>foreach key => value</description>
 </snippet>
