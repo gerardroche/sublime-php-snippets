@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>/**</tabTrigger>
     <scope>source.php comment</scope>
-    <description>PHP: Start Docblock</description>
+    <description>phpdoc</description>
 </snippet>

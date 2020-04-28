@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endfor</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: endfor statement</description>
+    <description>endfor</description>
 </snippet>

@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endif</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: endif statement</description>
+    <description>endif</description>
 </snippet>

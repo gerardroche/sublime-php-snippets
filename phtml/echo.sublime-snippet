@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>echo</tabTrigger>
     <scope>text.html.basic - source.php</scope>
-    <description>echo tag</description>
+    <description>echo variable</description>
 </snippet>

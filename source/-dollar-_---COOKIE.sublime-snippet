@@ -4,5 +4,5 @@ _COOKIE['${1:variable}']
 ]]></content>
     <tabTrigger>_C</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>PHP: COOKIE['...']</description>
+    <description>COOKIE['|']</description>
 </snippet>

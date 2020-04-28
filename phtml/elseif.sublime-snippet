@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>elseif</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: elseif statement</description>
+    <description>elseif</description>
 </snippet>

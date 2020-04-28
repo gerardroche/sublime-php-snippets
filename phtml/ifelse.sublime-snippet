@@ -8,5 +8,5 @@
 ]]></content>
     <tabTrigger>ifelse</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: if-else statement</description>
+    <description>if-else</description>
 </snippet>

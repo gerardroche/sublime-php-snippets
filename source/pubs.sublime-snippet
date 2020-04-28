@@ -9,5 +9,5 @@ public static function ${1:name}(\$$2)${TM_PHP_SNIPPET_OPENING_BRACE:
     <tabTriggerAliases>psm</tabTriggerAliases>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other - variable.parameter - meta.function.return-type</scope>
-    <description>PHP: public static class method declaration</description>
+    <description>public static method</description>
 </snippet>

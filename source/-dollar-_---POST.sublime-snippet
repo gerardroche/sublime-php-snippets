@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-_POST['${1:variable}']
+_POST['${1:variable}xx']
 ]]></content>
     <tabTrigger>_P</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>PHP: POST['...']</description>
+    <description>POST['|']</description>
 </snippet>

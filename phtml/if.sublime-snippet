@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>if</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: if statement</description>
+    <description>if</description>
 </snippet>

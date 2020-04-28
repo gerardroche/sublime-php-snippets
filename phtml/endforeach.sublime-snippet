@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endforeach</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: endforeach statement</description>
+    <description>endforeach</description>
 </snippet>

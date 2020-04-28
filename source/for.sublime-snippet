@@ -7,5 +7,5 @@ for (\$${1:i} = ${2:0}; \$${1:i} < $3; \$${1:i}++) {
     <tabTrigger>for</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
     <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other - variable.parameter - meta.function.return-type</scope>
-    <description>PHP: for statement</description>
+    <description>for</description>
 </snippet>

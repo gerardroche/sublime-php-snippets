@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>endwhile</tabTrigger>
     <scope>text.html.basic - source</scope>
-    <description>PHTML: endwhile statement</description>
+    <description>endwhile</description>
 </snippet>

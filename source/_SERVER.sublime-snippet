@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>_S</tabTrigger>
     <scope>source.php - variable - comment</scope>
-    <description>PHP: SERVER['...']</description>
+    <description>SERVER['|']</description>
 </snippet>
