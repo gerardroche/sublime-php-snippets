@@ -166,19 +166,10 @@ Create a file named `php-snippets-phtml-settings.tmPreferences` in your User pac
         <key>shellVariables</key>
         <array>
 
+
             <!--
-
-                If you prefer PHTML echo related statement snippets to complete
-                in long form, example:
-
-                    <?php echo $var ?>
-
-                Then comment out the following setting.
-
-                The default is is to complete in the short form, example:
-
-                    <?= $var ?>
-
+                If you prefer HTML echo statement snippets to use long-form echo
+                statements: <?php echo | ?>. Comment out the following section:
             -->
 
             <dict>
@@ -188,27 +179,10 @@ Create a file named `php-snippets-phtml-settings.tmPreferences` in your User pac
                 <string>=</string>
             </dict>
 
+
             <!--
-
                 If you prefer opening braces to be formatted on the same line,
-                for example:
-
-                    function name() {
-
-                    }
-
-                Then uncomment the following setting.
-
-                The default is to format braces on the next line, for example:
-
-                    function name()
-                    {
-
-                    }
-
-                Note: This may not implemented by all snippets. Please open
-                issues and pull requests for those that are missing.
-
+                uncomment the following section:
             -->
 
             <!--
