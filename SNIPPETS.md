@@ -2,6 +2,7 @@
 
 | Trigger | Description |
 | ------- | ----------- |
+| `<?` | &lt;?php ... ?&gt; |
 | `<?` | start tag |
 | `<?=` | short echo tag |
 | `/**` | phpdoc |
