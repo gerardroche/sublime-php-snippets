@@ -5,6 +5,6 @@
 <?${TM_PHP_OPEN_TAG:php} endforeach ?>
 ]]></content>
     <tabTrigger>foreachk</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>foreach key => value</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: foreach key => value</description>
 </snippet>

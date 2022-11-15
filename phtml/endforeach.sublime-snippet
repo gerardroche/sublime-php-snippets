@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG:php} endforeach ?>
 ]]></content>
     <tabTrigger>endforeach</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>endforeach</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: endforeach</description>
 </snippet>

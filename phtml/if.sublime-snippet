@@ -5,6 +5,6 @@
 <?${TM_PHP_OPEN_TAG:php} endif ?>
 ]]></content>
     <tabTrigger>if</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>if</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: if</description>
 </snippet>

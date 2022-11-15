@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} \$this->$0 ?>
 ]]></content>
     <tabTrigger>ethis</tabTrigger>
-    <scope>text.html.basic - source.php</scope>
-    <description>echo $this-&gt;</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: echo $this-&gt;</description>
 </snippet>

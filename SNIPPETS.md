@@ -2,7 +2,7 @@
 
 | Trigger | Description |
 | ------- | ----------- |
-| `<?` | &lt;?php ... ?&gt; |
+| `<?` | PHTML: &lt;?php ... ?&gt; |
 | `<?` | start tag |
 | `<?=` | short echo tag |
 | `/**` | phpdoc |
@@ -34,22 +34,27 @@
 | `doc_v` | phpdoc property |
 | `dst` | declare strict_types |
 | `echo` | echo string |
-| `echo` | echo variable |
-| `echoh` | echo htmlentities |
+| `echo` | PHTML: echo variable |
+| `echoh` | PHTML: echo htmlentities |
 | `else` | else |
+| `else` | PHTML: else |
 | `elseif` | elseif |
-| `endfor` | endfor |
-| `endforeach` | endforeach |
-| `endif` | endif |
-| `endswitch` | endswitch |
-| `endwhile` | endwhile |
+| `elseif` | PHTML: elseif |
+| `endfor` | PHTML: endfor |
+| `endforeach` | PHTML: endforeach |
+| `endif` | PHTML: endif |
+| `endswitch` | PHTML: endswitch |
+| `endwhile` | PHTML: endwhile |
 | `ethis` | echo $this-&gt; |
+| `ethis` | PHTML: echo $this-&gt; |
 | `ev` | echo variable |
 | `f` | function |
 | `flatten` | flatten array |
 | `for` | for |
 | `foreach` | foreach value |
+| `foreach` | PHTML: foreach value |
 | `foreachk` | foreach key => value |
+| `foreachk` | PHTML: foreach key => value |
 | `foreachv` | foreach value |
 | `fpri` | final private method |
 | `fpris` | final private static method |
@@ -62,8 +67,10 @@
 | `gm` | getter |
 | `i` | interface |
 | `if` | if |
+| `if` | PHTML: if |
 | `if?` | var = cond ? a:b |
 | `ifelse` | if-else |
+| `ifelse` | PHTML: if-else |
 | `inc` | include 'file' |
 | `inc1` | include_once 'file' |
 | `is` | isset var |
@@ -73,7 +80,7 @@
 | `n` | namespace |
 | `namespace` | namespace |
 | `p` | property |
-| `php` | &lt;?php ... ?&gt; |
+| `php` | PHTML: &lt;?php ... ?&gt; |
 | `pr` | print_r |
 | `pre` | print_r and exit |
 | `pri` | private method |
@@ -98,7 +105,7 @@
 | `switch` | switch |
 | `t` | $this-&gt; |
 | `this` | $this-&gt; |
-| `this` | &lt;?php $this-&gt;| ?&gt; |
+| `this` | PHTML: &lt;?php $this-&gt;| ?&gt; |
 | `throw` | throw exception |
 | `trait` | trait |
 | `try` | try catch |

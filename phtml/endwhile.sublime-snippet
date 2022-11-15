@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG:php} endwhile ?>
 ]]></content>
     <tabTrigger>endwhile</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>endwhile</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: endwhile</description>
 </snippet>

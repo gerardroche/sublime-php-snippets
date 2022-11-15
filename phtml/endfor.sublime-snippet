@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG:php} endfor ?>
 ]]></content>
     <tabTrigger>endfor</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>endfor</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: endfor</description>
 </snippet>

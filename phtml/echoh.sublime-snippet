@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} htmlentities(${1:\$var}, ENT_QUOTES, 'utf-8') ?>$0
 ]]></content>
     <tabTrigger>echoh</tabTrigger>
-    <scope>text.html.basic - source.php</scope>
-    <description>echo htmlentities</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: echo htmlentities</description>
 </snippet>

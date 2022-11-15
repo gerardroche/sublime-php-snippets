@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG:php} $0 ?>
 ]]></content>
     <tabTrigger>php</tabTrigger>
-    <scope>text.html.basic - source.php</scope>
-    <description>&lt;?php ... ?&gt;</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: &lt;?php ... ?&gt;</description>
 </snippet>

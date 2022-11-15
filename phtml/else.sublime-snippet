@@ -3,6 +3,6 @@
 <?${TM_PHP_OPEN_TAG:php} else: ?>
 ]]></content>
     <tabTrigger>else</tabTrigger>
-    <scope>text.html.basic - source</scope>
-    <description>else</description>
+    <scope>text.html - source</scope>
+    <description>PHTML: else</description>
 </snippet>
