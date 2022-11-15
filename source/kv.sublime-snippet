@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>kv</tabTrigger>
     <scope>source.php meta.array.php</scope>
-    <description>'key' => 'value'</description>
+    <description>PHP: 'key' => 'value'</description>
 </snippet>

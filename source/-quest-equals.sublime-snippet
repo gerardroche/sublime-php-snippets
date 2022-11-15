@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>?=</tabTrigger>
     <scope>embedding.php - comment - variable - string, source.php - comment - variable - string</scope>
-    <description>short echo tag</description>
+    <description>PHP: short echo tag</description>
 </snippet>

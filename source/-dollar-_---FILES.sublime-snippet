@@ -4,5 +4,5 @@ _FILES['${1:variable}']
 ]]></content>
     <tabTrigger>_F</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>FILES['|']</description>
+    <description>PHP: FILES['|']</description>
 </snippet>

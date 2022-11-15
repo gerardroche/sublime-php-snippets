@@ -41,117 +41,117 @@ Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/co
 
 | Trigger | Description |
 | ------- | ----------- |
+| `<?` | PHP: start tag |
 | `<?` | PHTML: &lt;?php ... ?&gt; |
-| `<?` | start tag |
-| `<?=` | short echo tag |
-| `/**` | phpdoc |
-| `?=` | short echo tag |
-| `_C` | COOKIE['|'] |
-| `_E` | ENV['|'] |
-| `_F` | FILES['|'] |
-| `_G` | GET['|'] |
-| `_P` | POST['|'] |
-| `_R` | REQUEST['|'] |
-| `_S` | SERVER['|'] |
-| `_SS` | SESSION['|'] |
-| `am` | array map |
-| `arr` | variable = array |
-| `c` | class |
+| `<?=` | PHP: short echo tag |
+| `/**` | PHP: phpdoc |
+| `?=` | PHP: short echo tag |
+| `_C` | PHP: COOKIE['|'] |
+| `_E` | PHP: ENV['|'] |
+| `_F` | PHP: FILES['|'] |
+| `_G` | PHP: GET['|'] |
+| `_P` | PHP: POST['|'] |
+| `_R` | PHP: REQUEST['|'] |
+| `_S` | PHP: SERVER['|'] |
+| `_SS` | PHP: SESSION['|'] |
+| `am` | PHP: array map |
+| `arr` | PHP: variable = array |
+| `c` | PHP: class |
 | `c` | PHP: class declaration |
-| `case` | case |
-| `class` | class |
-| `closure` | closure |
-| `con` | constructor |
-| `def` | define |
-| `def?` | defined |
-| `do` | do while |
-| `doc_c` | phpdoc class |
-| `doc_d` | phpdoc constant |
-| `doc_f` | phpdoc function |
-| `doc_i` | phpdoc interface |
-| `doc_s` | phpdoc function |
-| `doc_v` | phpdoc property |
-| `dst` | declare strict_types |
-| `echo` | echo string |
+| `case` | PHP: case |
+| `class` | PHP: class |
+| `closure` | PHP: closure |
+| `con` | PHP: constructor |
+| `def` | PHP: define |
+| `def?` | PHP: defined |
+| `do` | PHP: do while |
+| `doc_c` | PHP: phpdoc class |
+| `doc_d` | PHP: phpdoc constant |
+| `doc_f` | PHP: phpdoc function |
+| `doc_i` | PHP: phpdoc interface |
+| `doc_s` | PHP: phpdoc function |
+| `doc_v` | PHP: phpdoc property |
+| `dst` | PHP: declare strict_types |
+| `echo` | PHP: echo string |
 | `echo` | PHTML: echo variable |
 | `echoh` | PHTML: echo htmlentities |
-| `else` | else |
+| `else` | PHP: else |
 | `else` | PHTML: else |
-| `elseif` | elseif |
+| `elseif` | PHP: elseif |
 | `elseif` | PHTML: elseif |
 | `endfor` | PHTML: endfor |
 | `endforeach` | PHTML: endforeach |
 | `endif` | PHTML: endif |
 | `endswitch` | PHTML: endswitch |
 | `endwhile` | PHTML: endwhile |
-| `ethis` | echo $this-&gt; |
+| `ethis` | PHP: echo $this-&gt; |
 | `ethis` | PHTML: echo $this-&gt; |
-| `ev` | echo variable |
-| `f` | function |
-| `flatten` | flatten array |
-| `for` | for |
-| `foreach` | foreach value |
+| `ev` | PHP: echo variable |
+| `f` | PHP: function |
+| `flatten` | PHP: flatten array |
+| `for` | PHP: for |
+| `foreach` | PHP: foreach value |
 | `foreach` | PHTML: foreach value |
-| `foreachk` | foreach key => value |
+| `foreachk` | PHP: foreach key => value |
 | `foreachk` | PHTML: foreach key => value |
-| `foreachv` | foreach value |
-| `fpri` | final private method |
-| `fpris` | final private static method |
-| `fpro` | final protected method |
-| `fpub` | final public method |
-| `fpubs` | final public static method |
-| `fun` | function |
-| `getter` | getter |
-| `globals` | $GLOBALS['|'] |
-| `gm` | getter |
-| `i` | interface |
-| `if` | if |
+| `foreachv` | PHP: foreach value |
+| `fpri` | PHP: final private method |
+| `fpris` | PHP: final private static method |
+| `fpro` | PHP: final protected method |
+| `fpub` | PHP: final public method |
+| `fpubs` | PHP: final public static method |
+| `fun` | PHP: function |
+| `getter` | PHP: getter |
+| `globals` | PHP: $GLOBALS['|'] |
+| `gm` | PHP: getter |
+| `i` | PHP: interface |
+| `if` | PHP: if |
 | `if` | PHTML: if |
-| `if?` | var = cond ? a:b |
-| `ifelse` | if-else |
+| `if?` | PHP: var = cond ? a:b |
+| `ifelse` | PHP: if-else |
 | `ifelse` | PHTML: if-else |
-| `inc` | include 'file' |
-| `inc1` | include_once 'file' |
-| `is` | isset var |
-| `kv` | 'key' => 'value' |
-| `m` | method |
-| `met` | method |
-| `n` | namespace |
-| `namespace` | namespace |
-| `p` | property |
+| `inc` | PHP: include 'file' |
+| `inc1` | PHP: include_once 'file' |
+| `is` | PHP: isset var |
+| `kv` | PHP: 'key' => 'value' |
+| `m` | PHP: method |
+| `met` | PHP: method |
+| `n` | PHP: namespace |
+| `namespace` | PHP: namespace |
+| `p` | PHP: property |
 | `php` | PHTML: &lt;?php ... ?&gt; |
-| `pr` | print_r |
-| `pre` | print_r and exit |
-| `pri` | private method |
-| `pro` | protected method |
-| `psm` | public static method |
-| `pub` | public method |
-| `pubs` | public static method |
-| `r` | return |
-| `req` | require file |
-| `req1` | require_once file |
-| `reqd` | require dirname file |
-| `ret` | return |
-| `ret0` | return false |
-| `ret1` | return true |
-| `retf` | return false |
-| `rett` | return true |
-| `rt` | return $this |
-| `rv` | return var |
-| `self` | self:: |
-| `setter` | setter |
-| `sm` | setter |
-| `switch` | switch |
-| `t` | $this-&gt; |
-| `this` | $this-&gt; |
+| `pr` | PHP: print_r |
+| `pre` | PHP: print_r and exit |
+| `pri` | PHP: private method |
+| `pro` | PHP: protected method |
+| `psm` | PHP: public static method |
+| `pub` | PHP: public method |
+| `pubs` | PHP: public static method |
+| `r` | PHP: return |
+| `req` | PHP: require file |
+| `req1` | PHP: require_once file |
+| `reqd` | PHP: require dirname file |
+| `ret` | PHP: return |
+| `ret0` | PHP: return false |
+| `ret1` | PHP: return true |
+| `retf` | PHP: return false |
+| `rett` | PHP: return true |
+| `rt` | PHP: return $this |
+| `rv` | PHP: return var |
+| `self` | PHP: self:: |
+| `setter` | PHP: setter |
+| `sm` | PHP: setter |
+| `switch` | PHP: switch |
+| `t` | PHP: $this-&gt; |
+| `this` | PHP: $this-&gt; |
 | `this` | PHTML: &lt;?php $this-&gt;| ?&gt; |
-| `throw` | throw exception |
-| `trait` | trait |
-| `try` | try catch |
-| `use` | use |
-| `vd` | dump var |
-| `vde` | dump var and exit |
-| `while` | while |
+| `throw` | PHP: throw exception |
+| `trait` | PHP: trait |
+| `try` | PHP: try catch |
+| `use` | PHP: use |
+| `vd` | PHP: dump var |
+| `vde` | PHP: dump var and exit |
+| `while` | PHP: while |
 
 ## CONFIGURATION
 

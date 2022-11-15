@@ -4,5 +4,5 @@ _POST['${1:variable}xx']
 ]]></content>
     <tabTrigger>_P</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>POST['|']</description>
+    <description>PHP: POST['|']</description>
 </snippet>

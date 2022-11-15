@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>/**</tabTrigger>
     <scope>source.php comment</scope>
-    <description>phpdoc</description>
+    <description>PHP: phpdoc</description>
 </snippet>

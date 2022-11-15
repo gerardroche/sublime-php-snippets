@@ -4,5 +4,5 @@ _GET['${1:variable}']
 ]]></content>
     <tabTrigger>_G</tabTrigger>
     <scope>source.php variable - comment</scope>
-    <description>GET['|']</description>
+    <description>PHP: GET['|']</description>
 </snippet>

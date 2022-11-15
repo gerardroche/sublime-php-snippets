@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>_SS</tabTrigger>
     <scope>source.php - variable - comment</scope>
-    <description>SESSION['|']</description>
+    <description>PHP: SESSION['|']</description>
 </snippet>

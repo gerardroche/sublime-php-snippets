@@ -9,6 +9,6 @@ ${1:final }class ${2:${TM_FILENAME/([a-zA-Z][a-zA-Z0-9_]*).*/\u$1/}}${3/.+/ exte
 ]]></content>
     <tabTrigger>c</tabTrigger>
     <scopeAliases>language_construct</scopeAliases>
-    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other - variable.parameter - meta.function.return-type</scope>
+    <scope>source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.language - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.language - variable.other - variable.parameter - meta.function.return-type</scope>
     <description>PHP: class declaration</description>
  </snippet>
