@@ -4,6 +4,12 @@ DO NOT MODIFY. THIS IS COMPILED FROM AN ALIAS.
 
 (see n.sublime-snippet)
 
+--><!--
+
+DO NOT MODIFY. THIS IS COMPILED FROM AN ALIAS.
+
+(see n.sublime-snippet)
+
 --><snippet>
     <content><![CDATA[
 namespace ${1:Qualified\Name};

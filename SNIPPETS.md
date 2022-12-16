@@ -103,7 +103,7 @@
 | `setter` | PHP: setter |
 | `sm` | PHP: setter |
 | `switch` | PHP: switch |
-| `t` | PHP: $this-&gt; x |
+| `t` | PHP: $this-&gt; |
 | `this` | PHP: $this-&gt; |
 | `this` | PHTML: &lt;?php $this-&gt;| ?&gt; |
 | `throw` | PHP: throw exception |
