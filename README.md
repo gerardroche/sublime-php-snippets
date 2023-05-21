@@ -31,12 +31,10 @@ Windows | `git clone https://github.com/gerardroche/sublime-php-snippets.git %AP
 
 Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions).
 
-`Menu > Preferences > Settings`
+**Menu → Preferences → Settings**
 
-```json
-{
-    "tab_completion": true
-}
+```js
+"tab_completion": true
 ```
 
 | Trigger | Description |
@@ -155,7 +153,7 @@ Enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/co
 
 ## CONFIGURATION
 
-Create a file named `php-snippets-phtml-settings.tmPreferences` in your User packages directory (`Menu > Preferences > Browse Packages...`) with the following (modified to meet your needs):
+Create a file named `php-snippets-phtml-settings.tmPreferences` in your User packages directory (`Menu → Preferences → Browse Packages...`) with the following (modified to meet your needs):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
